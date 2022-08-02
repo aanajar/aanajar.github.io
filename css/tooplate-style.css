@@ -11,7 +11,7 @@ https://www.tooplate.com/view/2115-marvel
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
-  background-image: linear-gradient(to bottom right, rgba(131, 207, 255, 0.452), rgb(189, 255, 147));
+  background-image: linear-gradient(to bottom right, rgba(28, 114, 160, 0.271), rgba(188, 255, 147, 0.551));
 }
 
 .full-screen {
@@ -333,6 +333,7 @@ b, strong {
   height: 100%;
   position: absolute;
   left: 38px;
+  /* border-style: dotted; */
 }
 
 .timeline-yr {
