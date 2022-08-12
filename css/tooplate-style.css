@@ -601,7 +601,8 @@ b, strong {
   border: 0px;
   border-radius: 5px;
   border-bottom: 2px solid #ffc200;
-  margin-right: 15px;
+  margin: 10px;
+  
 }
 
 .nav-link-formation:hover,:focus{
