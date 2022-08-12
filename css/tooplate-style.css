@@ -40,9 +40,9 @@ a {
   text-decoration: none !important;
   transition: all 0.4s ease;
 }
-a:hover {
+/* a:hover {
   color: #ffc200 !important;
-}
+} */
 
 .navbar-brand .uil {
   font-size: 40px;
@@ -196,9 +196,7 @@ b, strong {
   padding: 0 20px;
 }
 
-.ff {
-  background-color: #cf003e;
-}
+
 .nav-link {
   font-weight: bold;
   font-size: 16px;
@@ -594,7 +592,8 @@ b, strong {
 }
 
 
-.nav-link-formation{
+
+.nav-link-formation {
   font-size: 20px;
   background-color: transparent;
   color: #484848;
@@ -605,8 +604,9 @@ b, strong {
   
 }
 
-.nav-link-formation:hover,:focus{
+.nav-link-formation:hover,.nav-link-formation:focus{
   background-color: #ffc200;
   color: white;
 }
+
 
