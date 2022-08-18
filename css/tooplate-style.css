@@ -585,13 +585,11 @@ b, strong {
   margin: 7px; 
 } */
 
-.timeline-info ul {
+.timeline-info ul, .timeline-info ol {
   border-left: 2px solid grey;
   padding-left: 5px;
   margin-left: 7px
 }
-
-
 
 .nav-link-formation {
   font-size: 20px;
@@ -608,5 +606,38 @@ b, strong {
   background-color: #ffc200;
   color: white;
 }
+
+.headlines{
+  padding: 15px;
+  background-image: linear-gradient(to right, rgba(28, 114, 160, 0.271), #ffc4000b);
+  cursor: pointer;
+  transition: .2s ease-in-out;
+  border-radius: 10px;
+}
+
+.headlines:hover{
+  transform: scale(1.02);
+  color: white;
+}
+
+.video-responsive { 
+  overflow:hidden; 
+  padding-bottom:56.25%; 
+  position:relative; 
+  height:0;
+  }
+  
+  .video-responsive iframe {
+  left:0; 
+  top:0; 
+  height:100%;
+  width:100%;
+  position:absolute;
+  border-radius: 12px;
+
+  
+  }
+
+ 
 
 
