@@ -11,7 +11,7 @@ https://www.tooplate.com/view/2115-marvel
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
-  background-image: linear-gradient(to bottom right, rgba(28, 114, 160, 0.271), rgba(188, 255, 147, 0.551));
+  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgba(148, 161, 183, 0.551));
 }
 
 .full-screen {
@@ -49,10 +49,10 @@ a {
 }
 
 p {
-  font-size: 18px;
+  /* font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
-  color: #5b5b5b;
+  color: #5b5b5b; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -336,7 +336,7 @@ b, strong {
   width: 3px;
   height: 100%;
   position: absolute;
-  left: 38px;
+  left: 24px;
   /* border-style: dotted; */
 }
 
@@ -344,17 +344,17 @@ b, strong {
   background: #474559;
   border-radius: 100%;
   position: absolute;
-  width: 75px;
-  height: 75px;
-  line-height: 75px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
 }
 .timeline-yr span {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   display: block;
-  line-height: 75px;
+  line-height: 50px;
 }
 
 .timeline-info {
@@ -608,15 +608,14 @@ b, strong {
 }
 
 .headlines{
-  padding: 15px;
+  padding: 5px;
   background-image: linear-gradient(to right, rgba(28, 114, 160, 0.271), #ffc4000b);
   cursor: pointer;
-  transition: .2s ease-in-out;
-  border-radius: 10px;
+  border: 2px
+  /* transition: .2s ease-in-out; */
 }
 
 .headlines:hover{
-  transform: scale(1.02);
   color: white;
 }
 
@@ -633,10 +632,16 @@ b, strong {
   height:100%;
   width:100%;
   position:absolute;
-  border-radius: 12px;
-
-  
+  border-radius: 12px;  
   }
+
+.select{
+  border: 1px solid rgb(127, 146, 160);
+}
+
+.custom-ul li{
+  margin: 25px;
+} 
 
  
 
