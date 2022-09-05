@@ -48,12 +48,12 @@ a {
   font-size: 40px;
 }
 
-p {
-  /* font-size: 18px;
+/* p {
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
-  color: #5b5b5b; */
-}
+  color: #5b5b5b;
+} */
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
@@ -356,6 +356,18 @@ b, strong {
   display: block;
   line-height: 50px;
 }
+.timeline-yr small {
+  color: #6b2323;
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  line-height: 50px;
+  margin-top: -25px;
+  margin-left: 35px ;
+  text-shadow: 0px 0px 10px red;
+
+  transform: rotate(-55deg);
+}
 
 .timeline-info {
   display: inline-block;
@@ -432,7 +444,7 @@ b, strong {
   background: transparent;
   border-radius: 2px;
   outline: none;
-  box-shadow: none;
+  box-shadow: 3px 15px 30px rgb(158, 156, 156);
   font-weight: bold;
   margin: 16px 0;
 }
