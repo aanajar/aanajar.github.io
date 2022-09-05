@@ -990,8 +990,11 @@ https://www.tooplate.com/view/2115-marvel
     
     <script>
       $(".headlines").click(function(){
-        $(".collapse").not($(this)).removeClass('show');
         var section = $(this).closest($(".sections"));
+
+        $(".collapse").not($(this)).removeClass('show');
+        $(".sections").not(section).removeClass('select');
+        
         section[0].className.includes('select') ? section.removeClass('select') : section.addClass('select');
       }
       )
