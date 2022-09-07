@@ -375,6 +375,9 @@ b, strong {
   /* max-width: 432px; */
   margin-left: 6em;
 }
+.timeline-info h4 {
+  font-size: larger;
+}
 
 .timeline-info h4:hover {
   color: #ffc200;
@@ -622,7 +625,8 @@ b, strong {
   padding: 5px;
   background-image: linear-gradient(to right, rgba(28, 114, 160, 0.271), #ffc4000b);
   cursor: pointer;
-  border: 2px
+  border: 2px;
+  font-weight: normal;
   /* transition: .2s ease-in-out; */
 }
 
@@ -650,9 +654,21 @@ b, strong {
   border: 1px solid rgb(127, 146, 160);
 }
 
-.custom-ul li{
+.resume a{
+  word-break: break-all;
+
+}
+
+/* .custom-ul li{
   margin: 25px;
-} 
+} */
+
+/* .collapse h6, .collapse p, .custom-ul{
+  margin: 25px;
+} */
+
+
+
 
  
 
