@@ -387,7 +387,7 @@ b, strong {
   cursor: pointer;
 }
 .timeline-info small {
-  color: #474559;
+  color: #000000;
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
