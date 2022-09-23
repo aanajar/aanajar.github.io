@@ -36,7 +36,7 @@
     "centreinteret" : "Area of interest",
     "domaineintervention" : "Field of work",
     "champintervention" : "Area of intervention",
-    "compétancestransmises" : "Transferred skills",
+    "competancestransmises" : "Transferred skills",
     "champsappro" : "Areas of appropriation :",
     "direction" : "Supervision",
     "membrejury" : "Jury member / Examinator",
@@ -83,7 +83,59 @@
 
     "etude5-d1" : "Option : Economic Science, Casablanca",
     "etude5-d2" : "Option : Experimental Sciences, Casablanca",
-    "etude5-d3" : "Option : Mathematical Sciences, Casablanca"
+    "etude5-d3" : "Option : Mathematical Sciences, Casablanca",
+
+    "exp1" : "University professor authorized to direct research (HDR),</br>Consultant and trainer for various organizations",
+    "exp2" : "Training internship",
+    "exp3" : "University professor",
+    "exp4" : "Speaker",
+    "exp5" : "Adminstrator",
+    "exp6" : "Trainer/Instructor",
+    "exp7" : "Technical service agent",
+    "exp8" : "Intern in applied computer science",
+
+    "exp1-d1" : "- Center for Doctoral Studies in Science and Technology <a href='http://www.fsts.ac.ma/recherche-scientifique/le-centre-detudes-doctorales/' target='_blank'>CEDoc-ST, Settat</a>.",
+    "exp1-d2" : "- Center for Research in Management Sciences <a href='https://www.uh1.ac.ma/wp-content/uploads/2021/10/CENTRE-Centre-de-recherche-en-sciences-de-gestion-converti.pdf' target='_blank'>C-ENCG-SG, Settat</a>.",
+    "exp1-d3" : "- Strategic management, project management and decision making.",
+    "exp1-d4" : "- Education and training evaluation.",
+    "exp1-d5" : "- Sociology of Organizations, Social Psychology, Work and Mental Health.",
+    "exp1-d6" : "- Public governance and performance.",
+    "exp1-d7" : "- Skills Management, Personal Development and HR.",
+    "exp1-d8" : "- Corporate communication and the contribution of information technology.",
+    "exp1-d9" : "- Co-supervision of doctoral theses.",
+    "exp1-d10" : "- Supervision of research projects in the 2nd cycle and the state engineering cycle at the Faculty of Science and Technology FST and the National School of Business and Management ENCG.",
+    "exp1-d11" : "- Design and coordination of academic programs.",
+
+    "exp2-d1" : "At the Forum of Modernity and Democracy FMD, Rabat, Morocco.",
+    "exp2-d2" : "Rights, freedom, governance and NGOs",
+
+    "exp3-d1" : "At Hassan I University, Settat, Grand Casablanca.",
+    "exp3-d2" : "- Research laboratory in strategy and management of organizations <a href='https://encg-settat.ma/recherche-developpement' target='_blank'>LASMO</a>.",
+    "exp3-d3" : "- Monitoring laboratory for emerging technologies <a href='http://www.fsts.ac.ma/laboratoire/laboratoire-de-recherche-de-veille-pour-les-technologies-emergentes/' target='_blank'>VETE</a>.",
+    "exp3-d4" : "- Observatory of research in didactics and university pedagogy <a href='http://www.fsb.univh2c.ma/?page_id=1654' target='_blank'>ORDIPU</a>.",
+    "exp3-d5" : "- Teaching",
+    "exp3-d6" : "- Intervention in the management of pedagogical affairs: Member of internal selection, integration, university orientation and pedagogical evaluation commissions.",
+
+    "exp4-d1" : "At the Faculty of Sciences Ain Chock, Casablanca.",
+    "exp4-d2" : "Management and social sciences.",
+    "exp4-d3" : "At the Faculty of Sciences Ben M'sik, Casablanca.",
+    "exp4-d4" : "Communication, management and social sciences.",
+
+    "exp5-d1" : "Head of economic and financial services at the Ministry of National Education",
+    "exp5-d2" : "- Administration of the department's program portfolio in the schools of assignment and monitoring of the financial, material and accounting management.",
+    "exp5-d3" : "- Management of accounting officers and all administrative staff of the technical services: timetables, assignments, personal data processing.",
+    "exp5-d4" : "- Accounting management of partnership agreements and management of technical projects.",
+
+    "exp6-d1" : "At the Office for Professional Training and Work Promotion OFPPT",
+    "exp6-d2" : "Intervention for the benefit of trainees specialized in new technologies, in preparation for the equivalent of the college degree.",
+    "exp6-d3" : "- Cartography and perspectives of the information technology professions",
+    "exp6-d4" : "- Job search techniques, business management, communication in a professional environment, customer relationship management, time management, project management.",
+
+    "exp7-d1" : "At Atento, a multinational company specialized in telecommunications, customer relations department, Casablanca.",
+
+    "exp8-d1" : "At SINSAM, a company specialized in new technologies, Casablanca."
+
+
 
     
 
