@@ -526,6 +526,23 @@ b, strong {
   }
 }
 @media (max-width: 767px) {
+
+  .info{
+    justify-content: center;
+  }
+
+  .recherche{
+    margin-top : 30px;
+  }
+
+  .comPub{
+    margin-top : 30px;
+  }
+  
+  .collapse{
+    padding: 0px;
+  }
+  
   h1 {
     font-size: 2.4em;
   }
@@ -549,6 +566,8 @@ b, strong {
   }
 }
 @media (max-width: 580px) {
+
+  
 	.animated-info {
 		min-width: 200px;
 	}
@@ -708,9 +727,9 @@ b, strong {
 
 
 
-/* .custom-ul li{
-  margin: 25px;
-} */
+.custom-ul li{
+  padding: 30px 0px;
+}
 
 /* .collapse h6, .collapse p, .custom-ul{
   margin: 25px;

@@ -1,0 +1,93 @@
+{
+    "unit" : "Unit",
+    "email" : "Email",
+    "phone" : "Phone",
+    "local" : "Local",
+    "lng" : "Language",
+    "downloadcv" : "Download my CV",
+    "touch" : "Get in touch",
+
+
+    "info" : "General Information",
+    "prodSc" : "Scientific Output",
+    "enca" : "Supervision of theses and dissertations",
+    "autre" : "Other participations",
+    "contactme" : "Interested to work together ? Let's talk !",
+    "send" : "Send",
+
+
+    "etude" : "Education",
+    "exppro" : "Professional Experiences",
+    "fc" : "Continuing education",
+    "compub" : "Communications and publications",
+    "recherche" : "Research area",
+    "livres" : "Books",
+    "ens" : "Teaching",
+    "theses" : "Thesis",
+    "missions" : "Pedagogical and administrative missions",
+    "projets" : "Projects",
+    "benev" : "Socio-cultural activities and volunteer work",
+
+    "speciality" : "Speciality",
+    "filière" : "Branch",
+    "theme" : "Thematic",
+    "themes" : "Thematics",
+    "depuis" : "Since",
+    "centreinteret" : "Area of interest",
+    "domaineintervention" : "Field of work",
+    "champintervention" : "Area of intervention",
+    "compétancestransmises" : "Transferred skills",
+    "champsappro" : "Areas of appropriation :",
+    "direction" : "Supervision",
+    "membrejury" : "Jury member / Examinator",
+    "contexte" : "Context",
+
+
+    "etude1" : "Phd",
+    "etude2" : "Master",
+    "etude3" : "Bachelor",
+    "etude4" : "University General Studies Diploma",
+    "etude5" : "High School Diploma",
+
+    "etude1-d1" : "Phd at the Interdisciplinary Research Laboratory LIRATED: Learning, Didactics, Evaluation and Information Technologies for education, at the Faculty of Sciences Ben M'sik, Hassan II University, Casablanca.",
+    "etude1-d2" : "Training engineering and didactics of science and technology.",
+    "etude1-d3" : "Skills management and training engineering.",
+
+    "etude2-d1" : "Department of Legal and Social Sciences at the Faculty of Law, Hassan II University, Mohammedia (07/2010).",
+    "etude2-d2" : "Social and public communication.",
+    "etude2-d3" : "- Epistemology of social sciences.",
+    "etude2-d4" : "- Study and analysis of the ideological production.",
+    "etude2-d5" : "- Introduction to the discursive approach.",
+    "etude2-d6" : "- Freedom of speech and political development.",
+    "etude2-d7" : "- Image, law, public space and society.",
+    "etude2-d8" : "- Associative movement and social mediation.",
+    "etude2-d9" : "- Media reading methodology.",
+    "etude2-d10" : "- Survey techniques.",
+    "etude2-d11" : "- Data analysis and datamining",
+    "etude2-d12" : "- Game theory and group dynamics.",
+    "etude2-d13" : "- Social actors and decision-making process.",
+    "etude2-d14" : "- City and sustainable development.",
+    "etude2-d15" : "- Local democracy and participation.",
+    "etude2-d16" : "- State, society and political issues.",
+    "etude2-d17" : "- Law, ethics and regulation of the media field.",
+    "etude2-d18" : "- The world information order.",
+    "etude2-d19" : "- The international right of information.",
+    "etude2-d20" : "- Corporate communication techniques.",
+    "etude2-d21" : "- HRM and leadership.",
+    "etude2-d22" : "- Réseautage et lobbying.",
+
+    "etude3-d1" : "Major : Economics and management at the Faculty of Legal, Economic and Social Sciences FSJES, Hassan II University, Casablanca.", 
+    "etude3-d2" : "Major : Applied computer science at the Faculty of Sciences Ain Chock, Casablanca.",
+
+    "etude4-d1" : "Economic Sciences at the Faculty of Legal, Economic and Social Sciences FSJES, Hassan II University, Casablanca.",
+
+    "etude5-d1" : "Option : Economic Science, Casablanca",
+    "etude5-d2" : "Option : Experimental Sciences, Casablanca",
+    "etude5-d3" : "Option : Mathematical Sciences, Casablanca"
+
+    
+
+
+
+    
+}

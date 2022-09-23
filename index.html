@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,7 +16,9 @@
 
     <!-- MAIN STYLE -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script> -->
 <!--
 
 Tooplate 2115 Marvel
@@ -25,14 +27,11 @@ https://www.tooplate.com/view/2115-marvel
 
 -->
   </head>
-  <body>
-    
-
+  <body onload="translatePage('lng-tag')">
     <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
             <a class="navbar-brand" href="index.html">Abdelhak Anajar</a>
-
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -65,13 +64,25 @@ https://www.tooplate.com/view/2115-marvel
                 <ul class="navbar-nav ml-lg-auto">
                     <div class="ml-lg-4">
                       <div class="color-mode d-lg-flex justify-content-center align-items-center">
-                        <i class="color-mode-icon"></i>
+                        <!-- <i class="color-mode-icon"></i> -->
                         
                       </div>
+                      
+
                     </div>
                 </ul>
+                
             </div>
+            <div style="display: flex; flex-direction:row;">
+              <a class="btn" href="javascript:void(0);" id="enTranslator">EN</a>
+              <a class="btn" href="javascript:void(0);" id="frTranslator" style="color: #f4623a;">FR</a>
+              <!-- <a class="nav-link lng"  href="" on>EN</a> -->
+
+            </div>
+            
         </div>
+        
+
     </nav>
 
     <!-- ABOUT -->
@@ -85,29 +96,22 @@ https://www.tooplate.com/view/2115-marvel
                 
             </div>
                 
-                <div class="col-lg-8 col-md-8 col-12 d-flex align-items-center p-0">
+                <div class="col-lg-8 col-md-8 col-12 d-flex info align-items-center p-0">
                     <div class="about-text">
-                        <h1 class="animated animated-text">
-                            <span class="mr-1">Abdelhak Anajar</span>
-                                <!-- <div class="animated-info w-100">
-                                    <span class="animated-item">Professeur universitaire</span>
-                                    <span class="animated-item">Consultant associé</span>
-                                    <span class="animated-item">Ingénieur de formation</span>
-                                </div> -->
-                        </h1>
-                        <span class="py-2"><i class="uil-building"></i><b>Unité : </b>Département de ...</span><br>
-                        <span class="py-2"><i class="uil-fast-mail"></i><b>Courriel : </b>abdelhak.anajar@gmail.com</span><br>
-                        <span class="py-2"><i class="uil-phone"></i><b>Téléphone : </b>+212645239277</span><br>
-                        <span class="py-2"><i class="uil-location"></i><b>Local : </b><a target="_blank" href="https://goo.gl/maps/VoyXCEXAdtKAuBNEA">FSTS</a></span><br>
-                        <span class="py-2"><i class="uil-globe"></i><b>Langues : </b>Arabe, Français, Anglais</span><br>
+                        <h1>Abdelhak Anajar</h1>
+                        <span class="py-2"><i class="uil-building"></i><b lng-tag="unit">Unité</b> : Département de ...</span><br>
+                        <span class="py-2"><i class="uil-fast-mail"></i><b lng-tag="email">Courriel</b> : abdelhak.anajar@gmail.com</span><br>
+                        <span class="py-2"><i class="uil-phone"></i><b lng-tag="phone">Téléphone</b> : +212645239277</span><br>
+                        <span class="py-2"><i class="uil-location"></i><b lng-tag="local">Local</b><a target="_blank" href="https://goo.gl/maps/VoyXCEXAdtKAuBNEA"> : FSTS</a></span><br>
+                        <span class="py-2"><i class="uil-globe"></i><b lng-tag="lng">Langues</b> : Arabe, Français, Anglais</span><br>
                         <br>
                         <!-- <p>Professeur Universitaire | Associé - Intervenant en Formation et Consulting  
                           Ingénierie de formation | Affaires RH et Administration
                           </p> -->
                         
                         <div class="custom-btn-group mt-4 ">
-                          <a href="#" class="btn mr-lg-2 mr-sm-2 custom-btn custom-btn-bg"><i class='uil uil-file-alt'></i> Télécharger mon CV</a>
-                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Entrer en contact</a>
+                          <a href="#" class="btn mr-lg-2 mr-sm-2 custom-btn custom-btn-bg" lng-tag="downloadcv"><i class='uil uil-file-alt'></i> Télécharger mon CV</a>
+                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link" lng-tag="touch">Entrer en contact</a>
                         </div>
                     </div>
                 </div>
@@ -171,14 +175,13 @@ https://www.tooplate.com/view/2115-marvel
               </div>
 
               <div class="col-lg-7 col-md-7 col-12 p-0">
-                <h3>Informations générales</h3>
+                <h3 lng-tag="info">Informations générales</h3>
 
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
                   
-                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#etude-data" aria-expanded="false" aria-controls="etude-data">Etudes</h4>
-                    <div class="collapse m-1 p-5" id="etude-data">
+                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#etude-data" aria-expanded="false" aria-controls="etude-data" lng-tag="etude">Etudes</h4>
+                    <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="etude-data">
                       
-                      <div class="tab-pane fade show active" id="nav-fi" role="tabpanel" aria-labelledby="nav-fi-tab">
                         <div class="timeline">
                           
                           <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseFormation1" aria-expanded="false" aria-controls="collapseFormation1">
@@ -188,18 +191,18 @@ https://www.tooplate.com/view/2115-marvel
                             </div>
                             
                             <div class="timeline-info" >
-                                 <h4><span>Doctorat</span></h4>
+                                 <h4><span lng-tag="etude1">Doctorat</span></h4>
                                  <div class="collapse" id="collapseFormation1">
-                                  <small>Doctorat au Laboratoire Interdisciplinaire de Recherche LIRATED : Apprentissage, Didactique, Evaluation et Technologies de l’Information pour l’Education, à la Faculté des Sciences Ben M’sik, Université Hassan II, Casablanca.</small><br>
+                                    <small lng-tag="etude1-d1">Doctorat au Laboratoire Interdisciplinaire de Recherche LIRATED : Apprentissage, Didactique, Evaluation et Technologies de l’Information pour l’Education, à la Faculté des Sciences Ben M’sik, Université Hassan II, Casablanca.</small><br>
                                      <span class="badge bg-secondary" style="font-size: 12px;  margin: 7px;">Discipline</span><br>
                                      <ul>
-                                      <li>Ingénierie de la formation et didactique des sciences et techniques.</li>
+                                      <li lng-tag="etude1-d2">Ingénierie de la formation et didactique des sciences et techniques.</li>
                                     </ul>
   
-                                    <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Spécialité</span><br>
+                                    <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;" lng-tag="speciality">Spécialité</span><br>
                                     <ul>
-                                      <li>Gestion des compétences et ingénierie de formation.</li>
-                                    </ul>
+                                      <li lng-tag="etude1-d3">Gestion des compétences et ingénierie de formation.</li>
+                                    </ul>                                   
                                  </div>
                             </div>
                           </div>
@@ -209,36 +212,36 @@ https://www.tooplate.com/view/2115-marvel
 
                             </div>
                             <div class="timeline-info" >
-                                 <h4><span >Maîtrise/Master</span></h4>
+                                 <h4><span lng-tag="etude2">Maîtrise/Master</span></h4>
                                  <div class="collapse" id="collapseFormation2">
-                                  <small>Département des sciences juridiques et sociales à la Faculté de Droit, Université Hassan II, Mohammedia (07/2010).</small><br>
-                                     <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Filière</span><br>
+                                  <small lng-tag="etude2-d1">Département des sciences juridiques et sociales à la Faculté de Droit, Université Hassan II, Mohammedia (07/2010).</small><br>
+                                     <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;" lng-tag="filière">Filière</span><br>
                                      <ul>
-                                      <li>Communication Publique et Sociale</li>
+                                      <li lng-tag="etude2-d2">Communication Publique et Sociale</li>
                                     </ul>
   
-                                    <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Thématiques de la formation</span><br>
+                                    <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;" lng-tag="themes">Thématiques de la formation</span><br>
                                     <ul>
-                                      <li>- Epistémologie des sciences sociales.</li>
-                                      <li>- Etude et analyse de la production idéologique.</li>
-                                      <li>-	Initiation à l’approche discursive.</li>
-                                      <li>- Liberté d’expression et développement politique.</li>
-                                      <li>-	Image, droit, espace public et société.</li>
-                                      <li>-	Mouvement associatif et médiation sociale.</li>
-                                      <li>-	Méthodologie de lecture des médias.</li>
-                                      <li>-	Techniques de sondage.</li>
-                                      <li>-	Analyse de données et datamining.</li>
-                                      <li>-	Théorie des jeux et dynamique des groupes.</li>
-                                      <li>-	Acteurs sociaux et processus décisionnel.</li>
-                                      <li>-	Ville et développement durable.</li>
-                                      <li>-	Démocratie locale et participation.</li>
-                                      <li>-	Etat, société et enjeux politiques.</li>
-                                      <li>-	Droit, éthique et régulation du champ médiatique.</li>
-                                      <li>-	L’ordre mondial de l’information.</li>
-                                      <li>-	Le droit international de l’information.</li>
-                                      <li>-	Techniques de communication institutionnelle.</li>
-                                      <li>-	GRH et leadership.</li>
-                                      <li>-	Réseautage et lobbying.</li>
+                                      <li lng-tag="etude2-d3">- Epistémologie des sciences sociales.</li>
+                                      <li lng-tag="etude2-d4">- Etude et analyse de la production idéologique.</li>
+                                      <li lng-tag="etude2-d5">-	Initiation à l’approche discursive.</li>
+                                      <li lng-tag="etude2-d6">- Liberté d’expression et développement politique.</li>
+                                      <li lng-tag="etude2-d7">-	Image, droit, espace public et société.</li>
+                                      <li lng-tag="etude2-d8">-	Mouvement associatif et médiation sociale.</li>
+                                      <li lng-tag="etude2-d9">-	Méthodologie de lecture des médias.</li>
+                                      <li lng-tag="etude2-d10">- Techniques de sondage.</li>
+                                      <li lng-tag="etude2-d11">- Analyse de données et datamining.</li>
+                                      <li lng-tag="etude2-d12">- Théorie des jeux et dynamique des groupes.</li>
+                                      <li lng-tag="etude2-d13">- Acteurs sociaux et processus décisionnel.</li>
+                                      <li lng-tag="etude2-d14">- Ville et développement durable.</li>
+                                      <li lng-tag="etude2-d15">- Démocratie locale et participation.</li>
+                                      <li lng-tag="etude2-d16">- Etat, société et enjeux politiques.</li>
+                                      <li lng-tag="etude2-d17">- Droit, éthique et régulation du champ médiatique.</li>
+                                      <li lng-tag="etude2-d18">- L’ordre mondial de l’information.</li>
+                                      <li lng-tag="etude2-d19">- Le droit international de l’information.</li>
+                                      <li lng-tag="etude2-d20">- Techniques de communication institutionnelle.</li>
+                                      <li lng-tag="etude2-d21">- GRH et leadership.</li>
+                                      <li lng-tag="etude2-d22">- Réseautage et lobbying.</li>
                                       
                                     </ul>
                                   
@@ -253,9 +256,22 @@ https://www.tooplate.com/view/2115-marvel
                                  <span>2008</span>
                             </div>
                             <div class="timeline-info" >
-                                 <h4><span >Licence/Bac</span></h4>
+                                 <h4><span lng-tag="etude3">Licence/Bac</span></h4>
                                  <div class="collapse" id="collapseFormation3">
-                                  <small>Option : économie et gestion à la Faculté des Sciences Juridiques, Economiques et Sociales FSJES, Université Hassan II, Casablanca.</small>
+                                  <small lng-tag="etude3-d1">Option : économie et gestion à la Faculté des Sciences Juridiques, Economiques et Sociales FSJES, Université Hassan II, Casablanca.</small>
+                                  
+                                 </div>
+                            </div>
+                          </div>
+
+                          <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseFormation8" aria-expanded="false" aria-controls="collapseFormation8">
+                            <div class="timeline-yr">
+                                 <span>2008</span>
+                            </div>
+                            <div class="timeline-info" >
+                                 <h4><span lng-tag="etude3">Licence/Bac</span></h4>
+                                 <div class="collapse" id="collapseFormation8">
+                                  <small lng-tag="etude3-d1">Option : Informatique appliquée à la Faculté des Sciences Ain Chock, Casablanca.</small>
                                   
                                  </div>
                             </div>
@@ -266,9 +282,9 @@ https://www.tooplate.com/view/2115-marvel
                                  <span>2007</span>
                             </div>
                             <div class="timeline-info" >
-                                 <h4><span >DEUG/DEC Technique</span></h4>
+                                 <h4><span lng-tag="etude4">DEUG/DEC Technique</span></h4>
                                  <div class="collapse" id="collapseFormation4">
-                                  <small>Option : Sciences économiques à la Faculté des Sciences Juridiques, Economiques et Sociales FSJES, Université Hassan II, Casablanca.</small>
+                                  <small lng-tag="etude4-d1">Option : Sciences économiques à la Faculté des Sciences Juridiques, Economiques et Sociales FSJES, Université Hassan II, Casablanca.</small>
                                  </div>
                             </div>
                           </div>
@@ -278,9 +294,9 @@ https://www.tooplate.com/view/2115-marvel
                                  <span>2006</span>
                             </div>
                             <div class="timeline-info" >
-                                 <h4><span >Baccalauréat/DES</span></h4>
+                                 <h4><span lng-tag="etude5">Baccalauréat/DES</span></h4>
                                  <div class="collapse" id="collapseFormation5">
-                                  <small>Série : sciences économiques, Casablanca.</small>                                  
+                                  <small lng-tag="etude5-d1">Série : sciences économiques, Casablanca.</small>                                  
                                  </div>
                             </div>
                           </div>
@@ -289,9 +305,9 @@ https://www.tooplate.com/view/2115-marvel
                                  <span>2005</span>
                             </div>
                             <div class="timeline-info" >
-                                 <h4><span >Baccalauréat/DES</span></h4>
+                                 <h4><span lng-tag="etude5">Baccalauréat/DES</span></h4>
                                  <div class="collapse" id="collapseFormation6">
-                                  <small>Série : sciences expérimentales, Casablanca.</small>                                  
+                                  <small lng-tag="etude5-d2">Série : sciences expérimentales, Casablanca.</small>                                  
                                  </div>
                             </div>
                           </div>
@@ -300,21 +316,21 @@ https://www.tooplate.com/view/2115-marvel
                                  <span>2004</span>
                             </div>
                             <div class="timeline-info" >
-                                 <h4><span >Baccalauréat/DES</span></h4>
+                                 <h4><span lng-tag="etude5">Baccalauréat/DES</span></h4>
                                  <div class="collapse" id="collapseFormation7">
-                                  <small>Série : sciences mathématiques, Casablanca. </small>                                  
+                                  <small lng-tag="etude5-d3">Série : sciences mathématiques, Casablanca. </small>                                  
                                  </div>
                             </div>
                           </div>
                         </div>
-                      </div>
+                      
 
                     </div>
                 </div>
 
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
-                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#exp-pro-data" aria-expanded="false" aria-controls="exp-pro-data">Expériences Professionnelles</h4>
-                    <div class="collapse m-1 p-5" id="exp-pro-data">
+                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#exp-pro-data" aria-expanded="false" aria-controls="exp-pro-data" lng-tag="exppro">Expériences Professionnelles</h4>
+                    <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="exp-pro-data">
 
                     
                     <div class="timeline">                                      
@@ -329,7 +345,7 @@ https://www.tooplate.com/view/2115-marvel
                                     
                                       <span class="badge bg-secondary" style="font-size: 12px;  margin: 7px;">Affiliations</span>
                                       <ul>
-                                        <li>- Centre d’études doctorales en sciences et techniques <a href="http://www.fsts.ac.ma/recherche-scientifique/le-centre-detudes-doctorales/" target="_blank">CEDoc-ST, Settat</a>.</li>
+                                        <li lng-tag="test">- Centre d’études doctorales en sciences et techniques <a href="http://www.fsts.ac.ma/recherche-scientifique/le-centre-detudes-doctorales/" target="_blank">CEDoc-ST, Settat</a>.</li>
                                         <li>- Centre de recherche en sciences de gestion <a href="https://www.uh1.ac.ma/wp-content/uploads/2021/10/CENTRE-Centre-de-recherche-en-sciences-de-gestion-converti.pdf" target="_blank">C-ENCG-SG, Settat</a>.</li>
                                       </ul>
 
@@ -502,8 +518,8 @@ https://www.tooplate.com/view/2115-marvel
                 </div>
 
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
-                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#fc-data" aria-expanded="false" aria-controls="fc-data">Formation continue</h4>
-                    <div class="collapse m-1 p-5" id="fc-data">
+                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#fc-data" aria-expanded="false" aria-controls="fc-data" lng-tag="fc">Formation continue</h4>
+                    <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="fc-data">
                       <div class="timeline">
                         <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapsefc1" aria-expanded="false" aria-controls="collapsefc1">
                           <div class="timeline-yr">
@@ -657,12 +673,12 @@ https://www.tooplate.com/view/2115-marvel
                 <br>
                 <br>
 
-                <h3>Production scientifique</h3>
+                <h3 lng-tag="prodSc">Production scientifique</h3>
 
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
-                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#compub-data" aria-expanded="false" aria-controls="compub-data">Communications et publications</h4>
-                    <div class="collapse m-1 p-5" id="compub-data">
-                      <div class="p-1" style="background-color: rgba(135, 208, 230, 0.186);">
+                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#compub-data" aria-expanded="false" aria-controls="compub-data" lng-tag="compub">Communications et publications</h4>
+                    <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="compub-data">
+                      <div class="p-1 comPub" style="background-color: rgba(135, 208, 230, 0.186);">
                         <h6 class="ms-3"> champs d'appropriation :</h6>
                       <p class="m-3">Education, didactique, évaluation de formation, technologies d’information, formation professionnelle, ingénierie de formation, performance d’entreprise, gouvernance, gestion des compétences.</p>
                       </div>
@@ -692,9 +708,9 @@ https://www.tooplate.com/view/2115-marvel
                 </div>
 
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
-                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#recherche-data" aria-expanded="false" aria-controls="recherche-data">Cercles de recherche</h4>
-                    <div class="collapse m-1 p-5" id="recherche-data">
-                      <div class="p-1" style="background-color: rgba(135, 208, 230, 0.186);">
+                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#recherche-data" aria-expanded="false" aria-controls="recherche-data" lng-tag="recherche">Cercles de recherche</h4>
+                    <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="recherche-data">
+                      <div class="p-1 recherche" style="background-color: rgba(135, 208, 230, 0.186);">
                         <h6 class="m-3"> champs d'appropriation :</h6>
                       <p class="m-3">Education, religion, sexualité, société, médias et règlementation, leadership et mouvement associatif, sciences d’information et de communication, développement local.</p>
                       </div>            
@@ -716,8 +732,8 @@ https://www.tooplate.com/view/2115-marvel
                 </div>
 
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
-                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#book-data" aria-expanded="false" aria-controls="book-data">Livres</h4>
-                    <div class="collapse m-1 p-5" id="book-data">
+                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#book-data" aria-expanded="false" aria-controls="book-data" lng-tag="livres">Livres</h4>
+                    <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="book-data">
                       *
                     </div>
 
@@ -725,11 +741,11 @@ https://www.tooplate.com/view/2115-marvel
                 <br>
                 <br>
 
-                <h3>Encadrement</h3>
+                <h3 lng-tag="enca">Encadrement</h3>
 
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
-                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#enseignement-data" aria-expanded="false" aria-controls="enseignement-data">Enseignement</h4>
-                    <div class="collapse m-1 p-5" id="enseignement-data">
+                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#enseignement-data" aria-expanded="false" aria-controls="enseignement-data" lng-tag="ens">Enseignement</h4>
+                    <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="enseignement-data">
                       <h6 class="m-3" style="display: list-item;list-style: square;">Droit des affaires : </h6>
                       <ul class="custom-ul m-3">
                         <li>2022, cycle ingénierie informatique et réseaux, semestre-5.</li>
@@ -831,8 +847,8 @@ https://www.tooplate.com/view/2115-marvel
                 </div>
 
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
-                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#these-data" aria-expanded="false" aria-controls="these-data">Thèses et mémoires</h4>
-                    <div class="collapse m-1 p-5" id="these-data">
+                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#these-data" aria-expanded="false" aria-controls="these-data" lng-tag="theses">Thèses et mémoires</h4>
+                    <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="these-data">
                       <ul class="m-3">
                         <li style="list-style: square;"><b>Direction :</b></li>
                       </ul>
@@ -884,8 +900,8 @@ https://www.tooplate.com/view/2115-marvel
                 </div>
 
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
-                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#missions-data" aria-expanded="false" aria-controls="missions-data">Missions pédagogiques et administratives</h4>
-                    <div class="collapse m-1 p-5" id="missions-data">
+                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#missions-data" aria-expanded="false" aria-controls="missions-data" lng-tag="missions">Missions pédagogiques et administratives</h4>
+                    <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="missions-data">
                       <h6 class="m-3"> Depuis 2022 :</h6>
                       <ul class="custom-ul m-3">
                         <li>Membre de l’équipe pédagogique de la filière/maîtrise (SPDS) Sciences politiques et dynamiques sociales, Département sciences sociales, Faculté de droit FSJES de Mohammedia.</li>
@@ -975,11 +991,11 @@ https://www.tooplate.com/view/2115-marvel
                 <br>
                 <br>
 
-                <h3>Autre participations</h3>
+                <h3 lng-tag="autre">Autre participations</h3>
 
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
-                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#projet-data" aria-expanded="false" aria-controls="projet-data">Projets académiques et autre participations</h4>
-                    <div class="collapse m-1 p-5" id="projet-data">
+                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#projet-data" aria-expanded="false" aria-controls="projet-data" lng-tag="projets">Projets</h4>
+                    <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="projet-data">
                       <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet1" aria-expanded="false" aria-controls="collapseprojet1">
                         <div class="timeline-yr">
                             <small>Depuis</small>
@@ -1223,170 +1239,10 @@ https://www.tooplate.com/view/2115-marvel
                     </div>
                 </div>
 
-                
-                
-
-                <!-- <div class="col-lg-12 col-12 p-0 sections mb-1" id="formation">
-                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#formation-data" aria-expanded="false" aria-controls="formation-data">Formations</h2>
-                  <div class="collapse m-1 p-5" id="formation-data">
-
-                
-                    <div class="tab-pane fade show" id="nav-fc" role="tabpanel" aria-labelledby="nav-fc-tab">
-                      <div class="timeline-wrapper">
-                        <div class="timeline-yr">
-                             <span>2018</span>
-                        </div>
-                        <div class="timeline-info" >
-                             <h4><span data-bs-toggle="collapse" href="#collapseEval" aria-expanded="false" aria-controls="collapseEval">Stagiaire au Forum de la Modernité et de la Démocratie FMD</span><small>Rabat, Maroc.</small></h3>
-                             <div class="collapse" id="collapseEval">
-                              <b>Stagiaire, Du 03/2018 au 06/2018(4 mois)</b><br>
-                              <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Domaines d’intervention</span><br>
-                                <ul>
-                                  <li>Droit, gouvernance et ONG.</li>
-                                </ul>                              
-                             </div>
-                        </div>
-                      </div>
-
-                      <div class="timeline-wrapper">
-                        <div class="timeline-yr">
-                             <span>2018</span>
-                        </div>
-                        <div class="timeline-info" >
-                             <h4><span data-bs-toggle="collapse" href="#collapseEval1" aria-expanded="false" aria-controls="collapseEval1">Formation sur l’Ingénierie de Formation</span><small>l’Office de la Formation Professionnelle et de la Promotion du Travail l’OFPPT (02/2019).</small></h3>
-                             <div class="collapse" id="collapseEval1">
-                              <b>Stagiaire, Du 03/2018 au 06/2018(4 mois)</b><br>
-                              <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Thématiques</span><br>
-                                <ul>
-                                  <li>- Comment appliquer les fondamentaux de l’Ingénierie de Formation et de l’Ingénierie Pédagogique.</li>
-                                  <li>- Analyser la demande de Formation et construire le Cahier des Charges.</li>
-                                  <li>- Acquérir la méthodologie pour concevoir un projet de Formation efficace et cohérent.</li>
-                                </ul>                              
-                             </div>
-                        </div>
-                      </div>
-
-                      <div class="timeline-wrapper">
-                        <div class="timeline-yr">
-                             <span>2018</span>
-                        </div>
-                        <div class="timeline-info" >
-                             <h4><span data-bs-toggle="collapse" href="#collapseEval2" aria-expanded="false" aria-controls="collapseEval2">Sessions de Formation en Pédagogie Universitaire</span></h3>
-                             <div class="collapse" id="collapseEval2">
-                                <ol>
-                                  <li style="margin-left: 20px;">L’Evaluation des enseignements par les étudiants : pourquoi et comment, encadrée par Pr. Denis Berthiaume <b>(15/11/2018).</b></li>
-                                  <li style="margin-left: 20px;">Evaluer par le QCM, encadrée par Pr. Emmanuel Sylvestre <b>(15/11/2018).</b></li>
-                                  <li style="margin-left: 20px;">L’Evaluation des Apprentissages dans l’Enseignement Supérieur, encadrée par Pr. Stéphane Justeau <b>(16/11/2018).</b></li>
-                                  <li style="margin-left: 20px;">Comment évaluer la pertinence pédagogique d’un programme d’études universitaires ? encadrée par Pr. Denis Berthiaume <b>(16/11/2018).</b></li>
-                                  <li style="margin-left: 20px;">Utiliser les grilles critériées lors de la correction des travaux d’étudiants, encadrée par Pr. Emmanuel Sylvestre et Dr. Marine Charitto <b>(17/11/2018).</b></li>
-                                  <li style="margin-left: 20px;">تنمية مهارات التقويم والقياس وبناء الاختبارات, encadrée par Pr. Abdellah Sahli <b>(18/11/2018).</b></li>
-                                </ol>                              
-                             </div>
-                        </div>
-                      </div>
-
-                      <div class="timeline-wrapper">
-                        <div class="timeline-yr">
-                             <span>2011</span>
-                        </div>
-                        <div class="timeline-info" >
-                             <h4><span data-bs-toggle="collapse" href="#collapseEval3" aria-expanded="false" aria-controls="collapseEval3">Formation interne de perfectionnement des administrateurs du ministère de l’éducation nationale</span></h3>
-                             <div class="collapse" id="collapseEval3">
-                                <ol>
-                                  <li style="margin-left: 20px;">Gestion Financière et Comptable des Etablissements <b>(02/2014).</b></li>
-                                  <li style="margin-left: 20px;">Réalisation et exécution du Budget d’Investissement des Académies d’Education <b>(12/2013).</b></li>
-                                  <li style="margin-left: 20px;">Assistance de Direction, Gestion des Services Techniques et des Cantines Scolaires <b>(10/2012).</b></li>
-                                  <li style="margin-left: 20px;">Réalisation et Normalisation des Cahiers de Préinscriptions Spéciales CPS <b>(04/2012).</b></li>
-                                  <li style="margin-left: 20px;">Procédure de Passation des Marchés Publics par Appel d’Offre et Audit Interne <b>(12/2011).</b></li>
-                                </ol>                              
-                             </div>
-
-                        </div>
-                      </div>
-
-                      <div class="timeline-wrapper">
-                        <div class="timeline-yr">
-                             <span>2009</span>
-                        </div>
-                        <div class="timeline-info" >
-                             <h4><span data-bs-toggle="collapse" href="#collapseEval4" aria-expanded="false" aria-controls="collapseEval4">Formation sur l’apport des NT</span></h3>
-                             <div class="collapse" id="collapseEval4">
-                                <ol>
-                                  <li style="margin-left: 20px;">Internet et Droits de l’Homme <b>(14/05/2009).</b></li>
-                                  <li style="margin-left: 20px;">Communication Politique via Internet <b>(07/05/2009).</b></li>
-                                  
-                                </ol>                              
-                             </div>
-                             
-                        </div>
-                      </div>
-
-                      <div class="timeline-wrapper">
-                        <div class="timeline-yr">
-                             <span>2008</span>
-                        </div>
-                        <div class="timeline-info" >
-                             <h4><span data-bs-toggle="collapse" href="#collapseEval5" aria-expanded="false" aria-controls="collapseEval5">Formation pédagogique interne d’accompagnement au métier de formateur.</span><small>l’Office de la Formation Professionnelle et de la Promotion du Travail l’OFPPT.</small></h3>
-                             <div class="collapse" id="collapseEval5">
-                              <b>Du 08/2008 au 12/2008 (3 mois)</b><br>
-                              <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Thématiques</span><br>
-                                <ul>
-                                  <li>- La Formation de l’Elaboration à l’Evaluation.</li>
-                                  <li>- Les approches de la Pédagogie d’Apprentissage et ses applications sur la Formation Professionnelle.</li>
-                                  <li>- L’approche par Compétence.</li>
-                                  <li>- L’animation dans un Projet de Formation.</li>
-
-                                </ul>                              
-                             </div>
-                        </div>
-                      </div>
-
-                      <div class="timeline-wrapper">
-                        <div class="timeline-yr">
-                             <span>2008</span>
-                        </div>
-                        <div class="timeline-info" >
-                             <h4><span data-bs-toggle="collapse" href="#collapseEval6" aria-expanded="false" aria-controls="collapseEval6">Formation interne en communication professionnelle</span><small>Société ATENTO.</small></h3>
-                             <div class="collapse" id="collapseEval6">
-                              <b>Du 01/2008 au 03/2008 (3 mois)</b><br>
-                              <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Thématiques</span><br>
-                                <ul>
-                                  <li>- La Communication Professionnelle.</li>
-                                  <li>- Les Techniques de Négociation.</li>
-                                  <li>- Le commerce par les pairs.</li>
-                                  <li>- La création de la Valeur Ajoutée par la communication.</li>
-                                  <li>- L’argumentaire dans la Vente.</li>
-
-                                </ul>                              
-                             </div>
-                        </div>
-                      </div>
-
-                      <div class="timeline-wrapper">
-                        <div class="timeline-yr">
-                             <span>2005</span>
-                        </div>
-                        <div class="timeline-info" >
-                             <h4><span data-bs-toggle="collapse" href="#collapseEval7" aria-expanded="false" aria-controls="collapseEval7">Certificat de formation en « Leadership » </span><small>L’Association des Ingénieurs de l’Ecole Mohammedia des Ingénieurs, l’Ecole Mohammedia des Ingénieurs (06/2005).</small></h3>
-                             <div class="collapse" id="collapseEval7">
-                              <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Thème</span><br>
-                                <ul>
-                                  <li>Le Développement des talents du Leadership.</li>
-                                  </ul>                              
-                             </div>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-
-                    
-                </div> -->
-                  <!-- Activité socioculturelle et bénévolat -->
-
+            
                 <div class="col-lg-12 col-12 p-0 sections mb-1" id="benevolat">
-                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#benevolat-data" aria-expanded="false" aria-controls="benevolat-data">Activité socioculturelle et bénévolat</h4>
-                  <div class="collapse m-1 p-5" id="benevolat-data">  
+                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#benevolat-data" aria-expanded="false" aria-controls="benevolat-data" lng-tag="benev">Activité socioculturelle et bénévolat</h4>
+                  <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="benevolat-data">  
                   <ul class="custom-ul m-3">                
                     <li>Bénévole à l’association <a href="https://www.assohelp.org/agenda" target="_blank">Marocains-et-fiers</a> qui œuvre pour l’inclusion sociale et la protection de l’environnement.</li>
                     <li>Bénévole à l’association <a href="https://www.facebook.com/lesmarocainspluriels/" target="_blank">Marocains-Pluriels</a> qui œuvre pour la liberté de culte, d’expression et de création artistique.</li>
@@ -1400,7 +1256,6 @@ https://www.tooplate.com/view/2115-marvel
                 </div>
   
                 </div>
-                    <!--fin Activité socioculturelle et bénévolat -->
 
                 
             </div>
@@ -1418,7 +1273,7 @@ https://www.tooplate.com/view/2115-marvel
           
           <div class="col-lg-7 col-md-7 col-12">
             <div class="contact-form">
-              <h2 class="mb-4">Intéressé de travailler ensemble ? Contactez-moi !</h2>
+              <h2 class="mb-4" lng-tag="contactme">Intéressé de travailler ensemble ? Contactez-moi !</h2>
 
               <form action="" method="get">
                 <div class="row">
@@ -1435,7 +1290,7 @@ https://www.tooplate.com/view/2115-marvel
                   </div>
 
                   <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="btn mr-lg-2 custom-btn custom-btn-bg" value="Envoyer">
+                    <input type="submit" class="btn mr-lg-2 custom-btn custom-btn-bg" value="Envoyer" lng-tag="send">
                   </div>
                 </div>
               </form>
@@ -1471,26 +1326,13 @@ https://www.tooplate.com/view/2115-marvel
 
     
     <script>
-      $('.headlines').attr('data-content','+');
 
-      $(".headlines").click(function(){
-        $(this).toggleClass('headlines-active');
-        var section = $(this).closest($(".sections"));
-        section.toggleClass('select');
-        section[0].className.includes('select') ? $(this).attr('data-content','-') : $(this).attr('data-content','+');
-        // $(".collapse").not($(this)).removeClass('show');
-        // $(".sections").not(section).removeClass('select');
-      }
-      )
+      ///////
+      
+      //////
 
-      $(".custom-ul").children('li').not(':last-child').after('<hr>');
 
-      $("#test").click(function(){
-        setTimeout(() => {
-          $("#collapsefc2").is(":visible") ? $(this).html("Stage de Formation sur la gouvernance participative et droit de l’homme.") : $(this).html("Stage de Formation sur la gouvernance participative et droit de l’homme.</br>Sessions de Formation sur la pédagogie universitaire.");
-        }, 500);
-
-      });
+      
 
     </script>
 
