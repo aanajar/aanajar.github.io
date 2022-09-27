@@ -133,7 +133,84 @@
 
     "exp7-d1" : "At Atento, a multinational company specialized in telecommunications, customer relations department, Casablanca.",
 
-    "exp8-d1" : "At SINSAM, a company specialized in new technologies, Casablanca."
+    "exp8-d1" : "At SINSAM, a company specialized in new technologies, Casablanca.",
+
+
+    "fc1" : "Training on training engineering",
+    "fc2" : "Training on participatory governance and human rights.",
+    "fc3" : "Training sessions on university pedagogy.",
+    "fc4" : "Training Sessions on Public Financial Management",
+    "fc5" : "Seminars.",
+    "fc6" : "Pedagogical training to accompany the profession of trainer.",
+    "fc7" : "Internal training in professional communication.",
+    "fc8" : "Leadership training program.",
+
+    "fc1-d1" : "At the Office of Professional Training and Work Promotion OFPPT.",
+    "fc1-d2" : "Training engineering: How to apply the fundamentals of training engineering and pedagogical engineering; Analyze the training request and build the specifications; Acquire the methodology to design an effective and coherent training project.",
+
+    "fc2-d1" : "At the Forum for Modernity and Democracy FMD.",
+    "fc2-d2" : "Freedom, human rights, governance and NGOs in Rabat, Morocco.",
+
+    "fc3-d1" : "- Student evaluation of teaching: why and how. Pr. Denis Berthiaume.",
+    "fc3-d2" : "- Using criterion-referenced grids when marking student work. Pr. Emmanuel Sylvestre and Pr.e Marine Charitto.",
+    "fc3-d3" : "- Evaluating by MCQs. Pr. Emmanuel Sylvestre.",
+    "fc3-d4" : "- Evaluation of learning in higher education. Pr. Stéphane Justeau.",
+    "fc3-d5" : "- Evaluating the pedagogical relevance of a university curriculum. Pr. Denis Berthiaume.",
+
+    "fc4-d1" : "Internal development sessions for administrators in the Ministry of National Education.",
+    "fc4-d2" : "- Institutional financial and accounting management <b>(2014)</b>.",
+    "fc4-d3" : "- Realization and execution of the capital budget of education academies <b>(2013)</b>.",
+    "fc4-d4" : "- Executive assistance, management of technical services and school canteens <b>(2012)</b>.",
+    "fc4-d5" : "- Realization and standardization of special pre-registration books SBPs.",
+    "fc4-d6" : "- Public procurement procedure by tender and internal audit <b>(2011)</b>.",
+
+    "fc5-d1" : "At the Faculty of Law FSJES of Mohammedia.",
+    "fc5-d2" : "- Seminar « Internet and Human Rights ».",
+    "fc5-d3" : "- Seminar « Political communication via Internet ».",
+
+    "fc6-d1" : "Internal training at the Office of Professional Training and Work Promotion OFPPT.",
+    "fc6-d2" : "- Training from development to evaluation.",
+    "fc6-d3" : "- Approaches to learning pedagogy and its application to professional training.",
+    "fc6-d4" : "- The competency-based approach.",
+    "fc6-d5" : "- Facilitation in a training project",
+
+    "fc7-d1" : "At ATENTO company.",
+    "fc7-d2" : "Professional communication, negotiation techniques, peer trading, creating added value through communication, sales pitching.",
+
+    "fc8-d1" : "Within the \"CoRT thinking program\", at the Mohammedia School of Engineering, Rabat.",
+    "fc8-d2" : "Leadership talent development",
+
+    
+    "compub-d1" : "Education, didactics, training evaluation, information technologies, professional training, training engineering, corporate performance, governance, skills management.",
+    "compub-d2" : "Elmaski R., Anajar A., Khafif S., (October 2022), The contribution of digital transformation to the performance of companies: the case of companies in Casablanca, [oral communication in progress], 2nd edition of the International Colloquium of Applied Research IRA: Organizational Agility and Performance of Organizations in Times of Crisis, IRA 2022, HEEC and ENCG, Marrakech, Morocco.",
+    "compub-d3" : "Benhamida S., Anajar A., Khafif S., (October 2022), Company performance in times of crisis: a study of the results/outcomes, [oral communication in progress], 2nd edition of the International Colloquium of Applied Research IRA : Organizational Agility and Performance of Organizations in Times of Crisis, IRA 2022, HEEC and ENCG, Marrakech, Morocco.",
+    "compub-d4" : "Anajar A., (December 2020), Strategies for active distance learning, [virtual communication], 2nd edition of the Forum of supervision and digital teaching, Moroccan Association of Supervision and Digital Teaching AMEEN and EDERASSA: For a leading and competent teacher in digital.",
+    "compub-d5" : "Anajar A., (April 27, 2019), The university and distance learning, evaluation of the impact of new technologies on the teaching of technical university disciplines, [oral communication], ADMEE-Europe, the Association for the Development of Evaluation Methodologies in Education, Conference: Uses and evaluation of MOOCs in a university context, Faculty of Sciences El Jadida, Morocco.",
+    "compub-d6" : "Anajar A., (November 2018), Creation in the world of business and ideas, [oral communication], Arab Innovation Congress, Anoubough Association and the Arab Innovation Network AIN, Casablanca, Morocco.",
+    "compub-d7" : "Anajar A., (May 2014), Prospects for the evolution of the HR function in the new technologies market in Morocco, [oral communication], International Business Forum IBF: Free Trade Agreement as a way to revitalize the global economy, Marrakech, Morocco.",
+    "compub-d8" : "Anajar A., (April 2014), New visions of managerial skills in digital content engineering, [oral communication], National Robotics Competition, National School of Applied Sciences ENSA, Tetouan.",
+    "compub-d9" : "Anajar A. and Talbi M., (January 2014), Evaluating On-the-Job Training in the ICT Sector in Morocco: Issues and Perspectives. [Oral Communication]. MAARIF World Conference on Science, Technology & Education, ADMEE-Europe International Symposium, Marrakech, Morocco. <a target='_blank' href='http://maarifcentre.org/conf/index.php/admee2014/2014/paper/view/324'>http://maarifcentre.org/conf/index.php/admee2014/2014/paper/view/324</a>.",
+    "compub-d10" : "Anajar A., (2013, November 12-15). Evaluation of Vocational Training Institutions through Quality, the case of CFMOTI. [oral communication]. International Congress on Quality in Higher Education: Evaluation of Training, Teaching and Institutions, Fez",
+    "compub-d11" : "Anajar A., (April 2013), Higher education between current challenges and good governance practices, [oral communication], 10th edition of the pedagogical days of the National Forum of Higher Education and Scientific Research FNESRS, University Library Sekkat-Casablanca, Morocco.",
+    "compub-d12" : "Anajar A., (July 2011), Teaching through pedagogical approaches of training, [oral communication], Pedagogy Research Day, Faculty of Sciences Ben M'sick, Casablanca, Morocco.",
+    
+
+    "recherche-d1" : "Education, religion, sexuality, society, media and regulation, leadership and associative movement, information and communication sciences, local development.",
+    "recherche-d2" : "Abdelhak Anajar, The network of listening centers for women victims of violence, investigation supervised by Pr Khadija Rebbah (jurist and association activist), 'associative movement and social mediation' unit, public and social communication field, EPGOT Lab, FSJES, Mohammedia, (February 2010).",
+    "recherche-d3" : "Abdelhak Anajar, The sex taboo in Maroc, research supervised by Pr Azzeddine Allam (political science), 'freedom of expression and political development' unit , public and social communication department, EPGOT Lab, FSJES, Mohammedia, (January 2010).",
+    "recherche-d4" : "Abdelhak Anajar, Islamic education and the study of human rights: Discursive analysis of a school program, research supervised by Pr Azzeddine Allam (political science), 'initiation to the discursive approach' unit, public and social communication field, EPGOT Lab, FSJES, Mohammedia, (December 2009).",
+    "recherche-d5" : "Abdelhak Anajar, ICT and digital culture in the international field, research supervised by Prof. Abderrazak Elasser (social sciences and international relations), 'the international order of information' unit, public and social communication field, EPGOT Lab, FSJES, Mohammedia, (November 2009).",
+    "recherche-d6" : "Abdelhak Anajar, School violence and the issue of sexual education, investigation supervised by Pr Naima Abba (law professor), 'associative movement and social mediation' unit, public and social communication field, EPGOT Lab, FSJES, Mohammedia, (October 2009).",
+    "recherche-d7" : "Abdelhak Anajar, Portrait of female leadership, debate with Aicha Chenna, research supervised by Pr Khadija Rebbah (jurist and associative activist), 'networking' unit, public and social communication field, EPGOT Labo, FSJES, Mohammedia, (September 2009).",
+    "recherche-d8" : "Abdelhak Anajar, Arab satellite channels and religious discourse, research supervised by Prof. Najib Mouhtadi (political sociology), 'political communication' unit , field of public and social communication, EPGOT Lab, FSJES, Mohammedia, (March 2009).",
+    "recherche-d9" : "Abdelhak Anajar, Analysis of the marketing strategy of the national campaign against AIDS / Sidaction, research supervised by Prof. Jamal Youssef (marketing), 'organizational marketing' unit, public and social communication field, EPGOT Labo, FSJES, Mohammedia, (February 2009).",
+    "recherche-d10" : "Abdelhak Anajar, Social expertise at the service of NGOs and the theme of human rights, research supervised by Pr Khadija Ennaciri, (professor of administrative law), 'social actors and decision-making process' unit , public and social communication field, EPGOT Lab, FSJES, Mohammedia, (December 2008).",
+    "recherche-d11" : "Abdelhak Anajar, The State at the heart of modern Islamic reformism. Study of the works of Jamal-al-Din Afghani on the concept of the Modern State, research supervised by Pr Hassan Rachik (anthropologist), 'analysis of ideological production' unit , public and social communication field, LaberCom', FSJES, Mohammedia, (November 2008).",
+    "recherche-d12" : "Abdelhak Anajar, The place of the couple man/woman in the ethnographic structures of Lévi-Strauss, research supervised by Pr Abderrazak Elasser (social sciences and international relations), research unit : 'epistemology of social sciences', public and social communication department, EPGOT Labo, FSJES, Mohammedia, (October 2008)."
+
+    
+
+
 
 
 

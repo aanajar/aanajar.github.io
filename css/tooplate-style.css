@@ -343,7 +343,7 @@ b, strong {
   /* border-style: dotted; */
 }
 
-.timeline-wrapper:hover .timeline-info h4 span{
+.timeline-info h4:hover {
     color: #ffc200;  
 }
 

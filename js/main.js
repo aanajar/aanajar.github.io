@@ -14,12 +14,12 @@ $(document).ready(function () {
 
       $(".custom-ul").children('li').not(':last-child').after('<hr>');
 
-      $("#test").click(function(){
-        setTimeout(() => {
-          $("#collapsefc2").is(":visible") ? $(this).html("Stage de Formation sur la gouvernance participative et droit de l’homme.") : $(this).html("Stage de Formation sur la gouvernance participative et droit de l’homme.</br>Sessions de Formation sur la pédagogie universitaire.");
-        }, 500);
+      // $("#test").click(function(){
+      //   setTimeout(() => {
+      //     $("#collapsefc2").is(":visible") ? $(this).html("Stage de Formation sur la gouvernance participative et droit de l’homme.") : $(this).html("Stage de Formation sur la gouvernance participative et droit de l’homme.</br>Sessions de Formation sur la pédagogie universitaire.");
+      //   }, 500);
 
-      });
+      // });
 
       //This is id of HTML element (English) with attribute lng-tag
         $("#enTranslator").click(function(){
@@ -28,6 +28,7 @@ $(document).ready(function () {
         });
         $("#frTranslator").click(function(){
             location.hash = '';
+            location.reload();
             $("#enTranslator").css('color', '#212529');
             $("#frTranslator").css('color', '#f4623a');
         });
