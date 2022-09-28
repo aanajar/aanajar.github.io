@@ -118,6 +118,15 @@ $(document).ready(function () {
         var translate = new Translate();
         translate.init(tagAttr, 'en');
         translate.process();
+        $("#about-link").attr("data-hover","About");
+        $("#project-link").attr("data-hover","Projects");
+        $("#carrer").attr("data-hover","Resume");
+
+        $("#name").attr("placeholder", "Name");
+        $("#email").attr("placeholder", "Email");
+        $("#name").attr("placeholder", "Name");
+        $("#submit").attr("value","Send");
+
       }
     
 }
