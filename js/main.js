@@ -13,6 +13,7 @@ $(document).ready(function () {
       )
 
       $(".custom-ul").children('li').not(':last-child').after('<hr>');
+       
 
       // $("#test").click(function(){
       //   setTimeout(() => {
@@ -32,6 +33,8 @@ $(document).ready(function () {
             $("#enTranslator").css('color', '#212529');
             $("#frTranslator").css('color', '#f4623a');
         });
+
+        
         
     
 
@@ -127,6 +130,21 @@ $(document).ready(function () {
         $("#name").attr("placeholder", "Name");
         $("#submit").attr("value","Send");
 
+      }
+
+      function sendMessage(sender){
+        Email.send({
+          Host : "smtp.mailtrap.io",
+          Username : "portfolio.dontreply@gmail.com",
+          Password : "portfoliooiloftrop123123",
+          To : 'abdelhak.anajar@gmail.com',
+          From : sender,
+          Subject : "Test email",
+          Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
+      }).then(
+        message => alert(message)
+      );
+      
       }
     
 }

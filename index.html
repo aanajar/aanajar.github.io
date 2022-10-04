@@ -18,6 +18,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/smtpJs.js"></script>
     <!-- <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script> -->
 <!--
 
@@ -96,7 +97,7 @@ https://www.tooplate.com/view/2115-marvel
                           </p> -->
                         
                         <div class="custom-btn-group mt-4 ">
-                          <a href="#" class="btn mr-lg-2 mr-sm-2 custom-btn custom-btn-bg" lng-tag="downloadcv"><i class='uil uil-file-alt'></i> Télécharger mon CV</a>
+                          <a href="./cv/cv.pdf" target="_blank" class="btn mr-lg-2 mr-sm-2 custom-btn custom-btn-bg" lng-tag="downloadcv"><i class='uil uil-file-alt'></i> Télécharger mon CV</a>
                           <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link" lng-tag="touch">Entrer en contact</a>
                         </div>
                     </div>
@@ -322,8 +323,7 @@ https://www.tooplate.com/view/2115-marvel
                     <div class="timeline">                                      
                         <div class="timeline-wrapper" data-bs-toggle="collapse" class="expPro" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                              <div class="timeline-yr">
-                                  <small lng-tag="depuis">Depuis</small> 
-                                  <span class="test">2021</span>
+                                  <span class="depuis">2021</span>
                              </div>
                              <div class="timeline-info" >
                                   <h4 lng-tag="exp1">Professeur universitaire habilité à diriger les recherches HDR.</br>Consultant et intervenant en formation auprès de divers organismes</h4>
@@ -378,8 +378,7 @@ https://www.tooplate.com/view/2115-marvel
 
                         <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
                           <div class="timeline-yr">
-                              <small lng-tag="depuis">Depuis</small>
-                               <span>2016</span>
+                               <span class="depuis">2016</span>
 
                           </div>
                           <div class="timeline-info" >
@@ -558,10 +557,8 @@ https://www.tooplate.com/view/2115-marvel
                  
                                     <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapsefc3" aria-expanded="false" aria-controls="collapsefc3">
                                       <div class="timeline-yr">
-                                          <span>2014</span>
-                                          <div class="timeline-yr" style="margin-top:-16px;">
-                                            <span>2011</span>
-                                          </div>
+                                          <span>2014</br>/2011</span>
+                                          
                                       </div>
                                       <div class="timeline-info" >
                                           <h4><span lng-tag="fc4">Sessions de Formation sur la gestion financière publique</span></h4>
@@ -890,79 +887,78 @@ https://www.tooplate.com/view/2115-marvel
                       </ul>
                     </div>
                 </div>
-
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
                   <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#missions-data" aria-expanded="false" aria-controls="missions-data" lng-tag="missions">Missions pédagogiques et administratives</h4>
                     <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="missions-data">
-                      <h6 class="m-3"> Depuis 2022 :</h6>
+                      <h6 class="m-3" style="background-color:rgba(135, 208, 230, 0.186);padding:5px;"> <span lng-tag="depuis">Depuis</span> 2022 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Membre de l’équipe pédagogique de la filière/maîtrise (SPDS) Sciences politiques et dynamiques sociales, Département sciences sociales, Faculté de droit FSJES de Mohammedia.</li>
-                        <li>Membre de l’équipe pédagogique des filières d’ingénierie :</br>
+                        <li lng-tag="mission1">Membre de l’équipe pédagogique de la filière/maîtrise (SPDS) Sciences politiques et dynamiques sociales, Département sciences sociales, Faculté de droit FSJES de Mohammedia.</li>
+                        <li lng-tag="mission2">Membre de l’équipe pédagogique des filières d’ingénierie :</br>
                           (ICP) Ingénierie de Conception et Productique, Faculté FST de Settat.</br>
                           (GIL) Génie Industriel et Logistique, Faculté FST de Settat.
                           </li>
-                        <li>Coordonnateur de module (management de la qualité et gestion de projet) au sein de la filière/maitrise (M) Mécatronique, Faculté FST de Settat.</li>
+                        <li lng-tag="mission3">Coordonnateur de module (management de la qualité et gestion de projet) au sein de la filière/maitrise (M) Mécatronique, Faculté FST de Settat.</li>
                       </ul>
                       <!-- <hr style="border: 1px dashed rgb(0, 0, 0);" /> -->
-                      <h6 class="m-3"> Depuis 2021 :</h6>
+                      <h6 class="m-3" style="background-color:rgba(135, 208, 230, 0.186);padding:5px;"> <span lng-tag="depuis">Depuis</span> 2021 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Coordonnateur de module (gestion de projet) au sein de la filière/maitrise (IRISTI) Ingénierie des réseaux informatiques et des systèmes des télécommunications, Faculté FST de Settat.</li>
-                        <li>Membre de l’équipe pédagogique de la filière d’ingénierie (IBIM) Ingénierie biomédicale : instrumentation et maintenance, Faculté FST de Settat.</li>
+                        <li lng-tag="mission4">Coordonnateur de module (gestion de projet) au sein de la filière/maitrise (IRISTI) Ingénierie des réseaux informatiques et des systèmes des télécommunications, Faculté FST de Settat.</li>
+                        <li lng-tag="mission5">Membre de l’équipe pédagogique de la filière d’ingénierie (IBIM) Ingénierie biomédicale : instrumentation et maintenance, Faculté FST de Settat.</li>
                       </ul>
-                      <h6 class="m-3"> Depuis 2020 :</h6>
+                      <h6 class="m-3"> <span lng-tag="depuis">Depuis</span> 2020 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Membre de l’équipe pédagogique de la filière d’ingénierie (GI) Génie informatique, Faculté FST de Settat.</li>
+                        <li lng-tag="mission6">Membre de l’équipe pédagogique de la filière d’ingénierie (GI) Génie informatique, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2021-2022 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Membre de l’équipe pédagogique de la filière/maitrise (VMIB) Valorisation et management de l’innovation en biosciences, Faculté FST de Settat.</li>
+                        <li lng-tag="mission7">Membre de l’équipe pédagogique de la filière/maitrise (VMIB) Valorisation et management de l’innovation en biosciences, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2020:</h6>
                       <ul class="custom-ul m-3">
-                        <li>Membre de l’équipe pédagogique de la filière/maitrise (IMSC) Ingénierie et modélisation des systèmes complexes, Faculté FST de Settat.</li>
+                        <li lng-tag="mission8">Membre de l’équipe pédagogique de la filière/maitrise (IMSC) Ingénierie et modélisation des systèmes complexes, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2018-2019 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Concepteur et coordonnateur de la filière/maitrise (MAMIAAP) Management appliqué aux métiers de l’industrie automobile, aéroportuaire et portuaire, Centre de formation continue, Faculté FST de Settat.</li>
+                        <li lng-tag="mission9">Concepteur et coordonnateur de la filière/maitrise (MAMIAAP) Management appliqué aux métiers de l’industrie automobile, aéroportuaire et portuaire, Centre de formation continue, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2017-2022 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Membre de l’équipe pédagogique de la filière/maitrise (MCDA) Management, commerce et distribution en agroalimentaire, Faculté FST de Settat.</li>
+                        <li lng-tag="mission10">Membre de l’équipe pédagogique de la filière/maitrise (MCDA) Management, commerce et distribution en agroalimentaire, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2017-2018-2020 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Membre de l’équipe pédagogique de la filière/maitrise (GBIM) Génie biomédical, instrumentation et maintenance, Faculté FST de Settat.</li>
+                        <li lng-tag="mission11">Membre de l’équipe pédagogique de la filière/maitrise (GBIM) Génie biomédical, instrumentation et maintenance, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2017-2018-2019 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Membre de l’équipe pédagogique de la filière/Bac (GEGM) Génie électrique, génie mécanique, et de la filière/maitrise (PVRM) Prospection et valorisation des ressources minérales, Faculté FST de Settat.</li>
+                        <li lng-tag="mission12">Membre de l’équipe pédagogique de la filière/Bac (GEGM) Génie électrique, génie mécanique, et de la filière/maitrise (PVRM) Prospection et valorisation des ressources minérales, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2017-2018 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Membre du comité chargé de la préparation du Forum FST/Entreprises, Faculté FST de Settat.</li>
-                        <li>Membre de l’équipe pédagogique de la filière/Bac (LST TDM BD) Licence en sciences et techniques, traitement des données massives big data, et de la filières/maitrise (SAE) Sciences appliquées à l’environnement, Faculté FST de Settat.</li>
+                        <li lng-tag="mission13">Membre du comité chargé de la préparation du Forum FST/Entreprises, Faculté FST de Settat.</li>
+                        <li lng-tag="mission14">Membre de l’équipe pédagogique de la filière/Bac (LST TDM BD) Licence en sciences et techniques, traitement des données massives big data, et de la filières/maitrise (SAE) Sciences appliquées à l’environnement, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2016-2017-2018-2022 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Membre de l’équipe pédagogique de la filière/maitrise (ATSII) Automatique, traitement du signal et informatique industrielle, Faculté FST de Settat.</li>
+                        <li lng-tag="mission15">Membre de l’équipe pédagogique de la filière/maitrise (ATSII) Automatique, traitement du signal et informatique industrielle, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2016-2017 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Chargé de l’organisation et la mutualisation des modules de gestion auprès du vice doyen des affaires pédagogiques et estudiantines.</li>
-                        <li>Chargé du plan de communication de la FSTS, projet présenté devant le doyen pour l’année universitaire 2016/2017.</li>
-                        <li>Membre de l’équipe pédagogique des filières/maitrises : (RMC) Ingénierie et management industriel, (AGQ) Ingénierie et management industriel, (IMI) Ingénierie et management industriel, Faculté FST de Settat.</li>
+                        <li lng-tag="mission16">Chargé de l’organisation et la mutualisation des modules de gestion auprès du vice doyen des affaires pédagogiques et estudiantines.</li>
+                        <li lng-tag="mission17">Chargé du plan de communication de la FSTS, projet présenté devant le doyen pour l’année universitaire 2016/2017.</li>
+                        <li lng-tag="mission18">Membre de l’équipe pédagogique des filières/maitrises : (RMC) Ingénierie et management industriel, (AGQ) Ingénierie et management industriel, (IMI) Ingénierie et management industriel, Faculté FST de Settat.</li>
                       </ul>
-                      <h6 class="m-3"> Depuis 2016 :</h6>
+                      <h6 class="m-3"> <span lng-tag="depuis">Depuis</span> 2016 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Membre de la cellule pédagogique des sciences de gestion et de la communication, Faculté FST de Settat.</li>
+                        <li lng-tag="mission19">Membre de la cellule pédagogique des sciences de gestion et de la communication, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2016 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Membre de la commission d’organisation des élections des structures de l’établissement FSTS, en Décembre 2016.</li>
+                        <li lng-tag="mission20">Membre de la commission d’organisation des élections des structures de l’établissement FSTS, en Décembre 2016.</li>
                       </ul>
                       <h6 class="m-3"> 2011-2015 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Administration des affaires économiques et financières, les Services Economiques et Matériels.</br>
+                        <li lng-tag="mission21">Administration des affaires économiques et financières, les Services Economiques et Matériels.</br>
                           Académie Agadir.</br> 
                           Académie Grand Casablanca.
                         </li>
@@ -970,11 +966,11 @@ https://www.tooplate.com/view/2115-marvel
                       
                       <h6 class="m-3"> 2009-2010 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Parrain de la promotion 2008/2009 des formations techniques en nouvelles technologies d’information et offshoring à l’Institut Spécialisé dans les Nouvelles Technologies IS-NTIC de Casablanca.</li>
+                        <li lng-tag="mission22">Parrain de la promotion 2008/2009 des formations techniques en nouvelles technologies d’information et offshoring à l’Institut Spécialisé dans les Nouvelles Technologies IS-NTIC de Casablanca.</li>
                       </ul>
                       <h6 class="m-3"> 2008-2009 :</h6>
                       <ul class="custom-ul m-3">
-                        <li>Membre au comité de gestion et de coordination pédagogique de l’Institut Spécialisé dans les Nouvelles Technologies IS-NTIC de Casablanca.</li>
+                        <li lng-tag="mission23">Membre au comité de gestion et de coordination pédagogique de l’Institut Spécialisé dans les Nouvelles Technologies IS-NTIC de Casablanca.</li>
                       </ul>
 
                       
@@ -990,8 +986,7 @@ https://www.tooplate.com/view/2115-marvel
                     <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="projet-data">
                       <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet1" aria-expanded="false" aria-controls="collapseprojet1">
                         <div class="timeline-yr">
-                            <small lng-tag="depuis">Depuis</small>
-                            <span>2008</span>
+                            <span class="depuis">2008</span>
                             
                         </div>
                         <div class="timeline-info" >
@@ -1009,35 +1004,35 @@ https://www.tooplate.com/view/2115-marvel
                       </div>
                       <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet2" aria-expanded="false" aria-controls="collapseprojet2">
                         <div class="timeline-yr">
-                            <span>2019/12/21</span>
+                            <span>2019</span>
                         </div>
                         <div class="timeline-info" >
                             <h4><span >Modérateur du Bio-Médical-Event</span></h4>
                             <div class="collapse" id="collapseprojet2">
-                              <small>Evènement organisé par la filière/maitrise GBIM avec la participation d’entreprises opérant dans le secteur professionnel biomédical, sous le thème : Métier de l’ingénieur biomédical au Maroc, Faculté FST de Settat.</small>                                                                   
+                              <small>(2019/12/21) Evènement organisé par la filière/maitrise GBIM avec la participation d’entreprises opérant dans le secteur professionnel biomédical, sous le thème : Métier de l’ingénieur biomédical au Maroc, Faculté FST de Settat.</small>                                                                   
                                                                
                             </div>
                         </div>
                       </div>
                       <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet3" aria-expanded="false" aria-controls="collapseprojet3">
                         <div class="timeline-yr">
-                            <span>2019/09/07 </span>
+                            <span>2019</span>
                         </div>
                         <div class="timeline-info" >
                             <h4><span >Membre aux comités d’évaluation des communications orales et modérateur.</span></h4>
                             <div class="collapse" id="collapseprojet3">
-                              <small>Au Colloque International de gestion CIREG (19ème  édition), organisé par l’ENGC de Settat, sous le thème : le management entre agilité et innovation, Marrakech.</small><br>                                                                                                
+                              <small>(2019/09/07) Au Colloque International de gestion CIREG (19ème  édition), organisé par l’ENGC de Settat, sous le thème : le management entre agilité et innovation, Marrakech.</small><br>                                                                                                
                             </div>
                         </div>
                       </div>
                       <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet4" aria-expanded="false" aria-controls="collapseprojet4">
                         <div class="timeline-yr">
-                            <span>2018/10/25</span>
+                            <span>2018</span>
                         </div>
                         <div class="timeline-info" >
                             <h4><span >Rapporteur de séminaire</span></h4>
                             <div class="collapse" id="collapseprojet4">
-                              <small>Séminaire « l’ingénierie de formation et le développement des compétences », organisé par la FST de Settat, sous le thème : ingénierie de formation, vecteur d’employabilité et de mobilité.</small><br>                                                                   
+                              <small>(2018/10/25) Séminaire « l’ingénierie de formation et le développement des compétences », organisé par la FST de Settat, sous le thème : ingénierie de formation, vecteur d’employabilité et de mobilité.</small><br>                                                                   
                                                             
                             </div>
                         </div>
@@ -1104,10 +1099,8 @@ https://www.tooplate.com/view/2115-marvel
                       </div>
                       <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet9" aria-expanded="false" aria-controls="collapseprojet9">
                         <div class="timeline-yr">
-                            <span>2017</span>
-                            <div class="timeline-yr" style="margin-top:-16px;">
-                              <span>2016</span>
-                            </div>
+                            <span>2017</br>/2016</span>
+                            
                         </div>
                         <div class="timeline-info" >
                             <h4><span >Projet d’encadrement des clubs estudiantins de la FST de Settat</span></h4>
@@ -1145,10 +1138,8 @@ https://www.tooplate.com/view/2115-marvel
                       </div>
                       <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet11" aria-expanded="false" aria-controls="collapseprojet11">
                         <div class="timeline-yr">
-                            <span>2017</span>
-                            <div class="timeline-yr" style="margin-top:-16px;">
-                              <span>2013</span>
-                            </div>
+                            <span>2017</br>/2013</span>
+                            
                         </div>
                         <div class="timeline-info" >
                             <h4><span >Projet de Stratégie d’Amélioration du Secteur de la Formation Professionnelle</span></h4>
@@ -1181,10 +1172,8 @@ https://www.tooplate.com/view/2115-marvel
                       </div>
                       <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet13" aria-expanded="false" aria-controls="collapseprojet13">
                         <div class="timeline-yr">
-                            <span>2012</span>
-                            <div class="timeline-yr" style="margin-top:-16px;">
-                              <span>2010</span>
-                            </div>
+                            <span>2012</br>/2010</span>
+                            
                         </div>
                         <div class="timeline-info" >
                             <h4><span  >Projet d’Evaluation de l’Employabilité des Compétences dans le Secteur de l’Offshoring</span></h4>
@@ -1236,14 +1225,14 @@ https://www.tooplate.com/view/2115-marvel
                   <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#benevolat-data" aria-expanded="false" aria-controls="benevolat-data" lng-tag="benev">Activité socioculturelle et bénévolat</h4>
                   <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="benevolat-data">  
                   <ul class="custom-ul m-3">                
-                    <li>Bénévole à l’association <a href="https://www.assohelp.org/agenda" target="_blank">Marocains-et-fiers</a> qui œuvre pour l’inclusion sociale et la protection de l’environnement.</li>
-                    <li>Bénévole à l’association <a href="https://www.facebook.com/lesmarocainspluriels/" target="_blank">Marocains-Pluriels</a> qui œuvre pour la liberté de culte, d’expression et de création artistique.</li>
-                    <li>Bénévole à la caravane <a href="https://bactv.ma/" target="_blank">BAC-TV</a> de l’orientation scolaire, encadrement de 2000 élèves lors de son édition de 2020.</li>
-                    <li>Animation d’émissions de radio et Tv sur l’importance du travail associatif et l’encadrement des jeunes.</li>
-                    <li>Formations à but non lucratif sur les thèmes de leadership, entreprenariat et développement social au service d’associations et clubs comme <a href="https://www.enactus-morocco.org/" target="_blank">Enactus</a>, <a href="https://www.facebook.com/pages/category/Nonprofit-Organization/Rotaract-maroc-118719511560436/" target="_blank">Rotaract</a>, <a href="https://www.clubs-etudiants.ma/organisme/jeunes-leaders-marocains/" target="_blank">JLM</a>, <a href="https://www.facebook.com/UMUS.FST.Settat/" target="_blank">UMUS</a>, <a href="http://www.jcicasablanca.ma/" target="_blank">JCI</a> et autres.</li>
-                    <li>Membre du jury des compétitions de débat organisées par l’association marocaine <a href="http://www.greatdebaters.org/">The Great DEBATERS</a> depuis 2015.</li>
-                    <li>Membre du club pédagogique de créativité littéraire, de poésie, de prose et d’art dramatique, collège Atlas.</li>
-                    <li><a href="https://www.youtube.com/user/TEDxYouth/videos" target="_blank">TedxYouth</a> speaker sur le leadership (voir <a href="https://www.youtube.com/watch?v=5ufO2Q9KJ6M&t=85s" target="_blank">lien</a>).</li>
+                    <li lng-tag="benev1">Bénévole à l’association <a href="https://www.assohelp.org/agenda" target="_blank">Marocains-et-fiers</a> qui œuvre pour l’inclusion sociale et la protection de l’environnement.</li>
+                    <li lng-tag="benev2">Bénévole à l’association <a href="https://www.facebook.com/lesmarocainspluriels/" target="_blank">Marocains-Pluriels</a> qui œuvre pour la liberté de culte, d’expression et de création artistique.</li>
+                    <li lng-tag="benev3">Bénévole à la caravane <a href="https://bactv.ma/" target="_blank">BAC-TV</a> de l’orientation scolaire, encadrement de 2000 élèves lors de son édition de 2020.</li>
+                    <li lng-tag="benev4">Animation d’émissions de radio et Tv sur l’importance du travail associatif et l’encadrement des jeunes.</li>
+                    <li lng-tag="benev5">Formations à but non lucratif sur les thèmes de leadership, entreprenariat et développement social au service d’associations et clubs comme <a href="https://www.enactus-morocco.org/" target="_blank">Enactus</a>, <a href="https://www.facebook.com/pages/category/Nonprofit-Organization/Rotaract-maroc-118719511560436/" target="_blank">Rotaract</a>, <a href="https://www.clubs-etudiants.ma/organisme/jeunes-leaders-marocains/" target="_blank">JLM</a>, <a href="https://www.facebook.com/UMUS.FST.Settat/" target="_blank">UMUS</a>, <a href="http://www.jcicasablanca.ma/" target="_blank">JCI</a> et autres.</li>
+                    <li lng-tag="benev6">Membre du jury des compétitions de débat organisées par l’association marocaine <a href="http://www.greatdebaters.org/">The Great DEBATERS</a> depuis 2015.</li>
+                    <li lng-tag="benev7">Membre du club pédagogique de créativité littéraire, de poésie, de prose et d’art dramatique, collège Atlas.</li>
+                    <li lng-tag="benev8"><a href="https://www.youtube.com/user/TEDxYouth/videos" target="_blank">TedxYouth</a> speaker sur le leadership (voir <a href="https://www.youtube.com/watch?v=5ufO2Q9KJ6M&t=85s" target="_blank">lien</a>).</li>
                   </ul>
                 </div>
   
