@@ -11,10 +11,11 @@
     "downloadcv" : "Download my CV",
     "touch" : "Get in touch",
 
+    "lng-d1" : "<i class='uil-globe'></i><b>Languages</b> : Arabic, Frensh, Engilsh.",
 
     "info" : "General Information",
     "prodSc" : "Scientific Output",
-    "enca" : "Supervision of theses and dissertations",
+    "enca" : "Supervision of thesis and dissertations",
     "autre" : "Other participations",
     "contactme" : "Interested to work together ? Let's talk !",
     "send" : "Send",
@@ -106,7 +107,7 @@
     "exp1-d6" : "- Public governance and performance.",
     "exp1-d7" : "- Skills Management, Personal Development and HR.",
     "exp1-d8" : "- Corporate communication and the contribution of information technology.",
-    "exp1-d9" : "- Co-supervision of doctoral theses.",
+    "exp1-d9" : "- Co-supervision of doctoral thesis.",
     "exp1-d10" : "- Supervision of research projects in the 2nd cycle and the state engineering cycle at the Faculty of Science and Technology FST and the National School of Business and Management ENCG.",
     "exp1-d11" : "- Design and coordination of academic programs.",
 

@@ -28,10 +28,13 @@ $(document).ready(function () {
             translatePage('lng-tag');
         });
         $("#frTranslator").click(function(){
+          if(location.hash == "#en"){
             location.hash = '';
             location.reload();
             $("#enTranslator").css('color', '#212529');
             $("#frTranslator").css('color', '#f4623a');
+          }
+            
         });
 
         
