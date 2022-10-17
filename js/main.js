@@ -77,10 +77,11 @@ function showScroll(){
   else $("#totop").attr("style", "display:none")
 }
 
-$(document).ready(function () {  
+$(document).ready(function () {
+  
+  
 
     $('.headlines').attr('data-content','+');
-
       $(".headlines").click(function(){
         $(this).toggleClass('headlines-active');
         var section = $(this).closest($(".sections"));
@@ -120,8 +121,9 @@ $(document).ready(function () {
 
         $("#totop").click(function () { 
           document.documentElement.scrollTop = 0;
-          
         });
+
+
 
         
         
