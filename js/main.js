@@ -123,6 +123,81 @@ $(document).ready(function () {
           document.documentElement.scrollTop = 0;
         });
 
+        $('.owl-carousel-pub').owlCarousel({
+          loop: true,
+          center: true,
+          items: 1,
+          margin: 30,
+          autoplay: true,
+          dots:true,
+          nav:true,
+          autoplayTimeout: 8500,
+          smartSpeed: 450,
+          navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>']
+
+
+          // singleItem: false,
+          // items: 3,
+          // loop:false,
+          // margin:10,
+          // nav:false,
+          // center: true,
+          // navigation: true,
+          // responsive:{
+          //     0:{
+          //         items:1
+          //     },
+          //     600:{
+          //         items:2
+          //     },
+          //     1000:{
+          //         items:3
+          //     }
+          // }
+        });
+        // $('.owl-carousel-cours').owlCarousel({
+        //   loop:true,
+        //   margin:10,
+        //   nav:true,
+        //   center: true,
+        //   navigation: false          
+        // });
+        // $('.owl-carousel-articles').owlCarousel({
+        //   loop:true,
+        //   margin:10,
+        //   nav:true,
+        //   center: true,
+        //   navigation: false          
+        // });
+        // $('.owl-carousel-livres').owlCarousel({
+        //   loop:true,
+        //   margin:10,
+        //   nav:true,
+        //   center: true,
+        //   navigation: false          
+        // });
+
+        $("#pubCarousel").css("--bg-image","url('/images/pub.jpg')")
+
+        $("#cours-navitem").click(function () { 
+          $("#pubCarousel").css("--bg-image","url('/images/cours.jpg')")
+          
+        });
+        $("#pub-navitem").click(function () { 
+          $("#pubCarousel").css("--bg-image","url('/images/pub.jpg')")
+          
+        });
+        $("#articles-navitem").click(function () { 
+          $("#pubCarousel").css("--bg-image","url('/images/articles.jpg')")
+          
+        });
+        $("#livres-navitem").click(function () { 
+          $("#pubCarousel").css("--bg-image","url('/images/livres.jpeg')")
+          
+        });
+
+        
+
 
 
         
