@@ -816,6 +816,11 @@ b, strong {
 
 }
 
+#lasmoLink{
+  word-break:keep-all;
+  
+}
+
 /* .missionList li:before{
   content: "- ";
 } */
