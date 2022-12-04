@@ -93,6 +93,10 @@ $(document).ready(function () {
       )
 
       $(".custom-ul").children('li').not(':last-child').after('<hr>');
+      $(".missionList").children('li').css('list-style','square').not(':last-child').after('<br>');
+
+      $('#missions-data').children('h6').css('background-color','rgba(135, 208, 230, 0.186)').css('padding','5px')
+
        
 
       // $("#test").click(function(){
@@ -187,12 +191,12 @@ $(document).ready(function () {
           $("#pubCarousel").css("--bg-image","url('/images/pub.jpg')")
           
         });
-        $("#articles-navitem").click(function () { 
-          $("#pubCarousel").css("--bg-image","url('/images/articles.jpg')")
+        $("#conference-navitem").click(function () { 
+          $("#pubCarousel").css("--bg-image","url('/images/conference.jpg')")
           
         });
-        $("#livres-navitem").click(function () { 
-          $("#pubCarousel").css("--bg-image","url('/images/livres.jpeg')")
+        $("#projects-navitem").click(function () { 
+          $("#pubCarousel").css("--bg-image","url('/images/projects.jpeg')")
           
         });
 

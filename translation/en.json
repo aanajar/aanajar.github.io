@@ -2,6 +2,10 @@
     "apropos" : "About",
     "projet" : "Projects",
     "carriere" : "Resume",
+
+    "courscar" : "Courses",
+    "confcar" : "Conferences",
+    "projetcar" : "Projects",
     
     "unit" : "Unit",
     "email" : "Email",
@@ -16,7 +20,7 @@
     "info" : "General Information",
     "prodSc" : "Scientific Output",
     "enca" : "Supervision of thesis and dissertations",
-    "autre" : "Other participations",
+    "autre" : "Other activities",
     "contactme" : "Interested to work together ? Let's talk !",
     "send" : "Send",
 
@@ -59,7 +63,7 @@
     "etude1-d3" : "Skills management and training engineering.",
 
     "etude2-d1" : "Department of Legal and Social Sciences at the Faculty of Law, Hassan II University, Mohammedia (07/2010).",
-    "etude2-d2" : "Social and public communication.",
+    "etude2-d2" : "Communication Management",
     "etude2-d3" : "- Epistemology of social sciences.",
     "etude2-d4" : "- Study and analysis of the ideological production.",
     "etude2-d5" : "- Introduction to the discursive approach.",
@@ -141,11 +145,11 @@
     "exp8-d1" : "At SINSAM, a company specialized in new technologies, Casablanca.",
 
 
-    "fc1" : "Training on training engineering",
+    "fc1" : "Workshop on training engineering",
     "fc2" : "Training on participatory governance and human rights.",
     "fc3" : "Training sessions on university pedagogy.",
     "fc4" : "Training Sessions on Public Financial Management",
-    "fc5" : "Seminars.",
+    "fc5" : "Training Seminars.",
     "fc6" : "Pedagogical training to accompany the profession of trainer.",
     "fc7" : "Internal training in professional communication.",
     "fc8" : "Leadership training program.",

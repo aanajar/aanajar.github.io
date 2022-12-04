@@ -85,9 +85,9 @@ https://www.tooplate.com/view/2115-marvel
                 
             <ul class="nav nav-tabs d-flex justify-content-between p-3">
               <li class="nav-item-carousel"><a class="nav-link-carousel" data-toggle="tab" id="pub-navitem" href="#publication">Publications</a></li>
-              <li class="nav-item-carousel"><a class="nav-link-carousel" data-toggle="tab" id="cours-navitem" href="#cours">Cours</a></li>
-              <li class="nav-item-carousel"><a class="nav-link-carousel" data-toggle="tab" id="articles-navitem" href="#article">Articles</a></li>
-              <li class="nav-item-carousel"><a class="nav-link-carousel" data-toggle="tab" id="livres-navitem" href="#livres">Livres</a></li>
+              <li class="nav-item-carousel"><a class="nav-link-carousel" data-toggle="tab" id="cours-navitem" lng-tag="courscar" href="#cours">Cours</a></li>
+              <li class="nav-item-carousel"><a class="nav-link-carousel" data-toggle="tab" id="conference-navitem" lng-tag="confcar" href="#conference">Conférences</a></li>
+              <li class="nav-item-carousel"><a class="nav-link-carousel" data-toggle="tab" id="projects-navitem" lng-tag="projetcar" href="#projects">Projets</a></li>
             </ul>
           
             <div class="tab-content p-3">
@@ -105,23 +105,23 @@ https://www.tooplate.com/view/2115-marvel
                 
               </div>
               <div id="cours" class="tab-pane fade">
-                <h3>Cours</h3>
+                <h3 lng-tag="courscar">Cours</h3>
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <a href="test.html">voir plus</a>
                 <div class="d-flex justify-content-center">
                   
                 </div> 
               </div>
-              <div id="article" class="tab-pane fade">
-                <h3>Articles</h3>
+              <div id="conference" class="tab-pane fade">
+                <h3 lng-tag="confcar">Conférences</h3>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                 <a href="test.html">voir plus</a>
                 <div class="d-flex justify-content-center">
                   
                 </div>
               </div>
-              <div id="livres" class="tab-pane fade">
-                <h3>Livres</h3>
+              <div id="projects" class="tab-pane fade">
+                <h3 lng-tag="projetcar">Projets</h3>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                 <a href="test.html">voir plus</a>
                 <div class="d-flex justify-content-center">
@@ -155,7 +155,7 @@ https://www.tooplate.com/view/2115-marvel
                 <div class="col-lg-8 col-md-8 col-12 d-flex info align-items-center p-0">
                     <div class="about-text">
                         <h3>Abdelhak Anajar</h3>
-                        <span class="py-2"><i class="uil-building"></i><b lng-tag="unit">Unité</b> : Département de ...</span><br>
+                        <span class="py-2"><i class="uil-building"></i><b lng-tag="unit">Unité</b> : <a href="https://encg-settat.ma/recherche-developpement" target="_blank">LASMO</a>, National School of business and management, Settat, Morocco </span><br>
                         <span class="py-2"><i class="uil-fast-mail"></i><b lng-tag="email">Courriel</b> : abdelhak.anajar@gmail.com</span><br>
                         <span class="py-2"><i class="uil-phone"></i><b lng-tag="phone">Téléphone</b> : +212645239277</span><br>
                         <span class="py-2"><i class="uil-location"></i><b lng-tag="local">Local</b><a target="_blank" href="https://goo.gl/maps/VoyXCEXAdtKAuBNEA"> : FSTS</a></span><br>
@@ -236,18 +236,18 @@ https://www.tooplate.com/view/2115-marvel
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
                   
                   <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#etude-data" aria-expanded="false" aria-controls="etude-data" lng-tag="etude">Etudes</h4>
-                    <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="etude-data">
+                    <div class="collapse m-1 px-lg-5 px-md-5 px-2" id="etude-data">
                       
                         <div class="timeline">
                           
-                          <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseFormation1" aria-expanded="false" aria-controls="collapseFormation1">
+                          <div class="timeline-wrapper" >
                             <div class="timeline-yr">
                               <span>2015</span>
                               
                             </div>
                             
                             <div class="timeline-info" >
-                                 <h4><span lng-tag="etude1">Doctorat</span></h4>
+                                 <h4><span lng-tag="etude1" data-bs-toggle="collapse" href="#collapseFormation1" aria-expanded="false" aria-controls="collapseFormation1">Doctorat</span></h4>
                                  <div class="collapse" id="collapseFormation1">
                                     <small lng-tag="etude1-d1">Doctorat au Laboratoire Interdisciplinaire de Recherche LIRATED : Apprentissage, Didactique, Evaluation et Technologies de l’Information pour l’Education, à la Faculté des Sciences Ben M’sik, Université Hassan II, Casablanca.</small><br>
                                      <span class="badge bg-secondary" style="font-size: 12px;  margin: 7px;">Discipline</span><br>
@@ -262,18 +262,18 @@ https://www.tooplate.com/view/2115-marvel
                                  </div>
                             </div>
                           </div>
-                          <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseFormation2" aria-expanded="false" aria-controls="collapseFormation2">
+                          <div class="timeline-wrapper" >
                             <div class="timeline-yr">
                               <span>2010</span>
 
                             </div>
                             <div class="timeline-info" >
-                                 <h4><span lng-tag="etude2">Maîtrise/Master</span></h4>
+                                 <h4><span lng-tag="etude2" data-bs-toggle="collapse" href="#collapseFormation2" aria-expanded="false" aria-controls="collapseFormation2">Master/Maîtrise</span></h4>
                                  <div class="collapse" id="collapseFormation2">
                                   <small lng-tag="etude2-d1">Département des sciences juridiques et sociales à la Faculté de Droit, Université Hassan II, Mohammedia (07/2010).</small><br>
                                      <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;" lng-tag="filière">Filière</span><br>
                                      <ul>
-                                      <li lng-tag="etude2-d2">Communication Publique et Sociale</li>
+                                      <li lng-tag="etude2-d2">Management de la communication</li>
                                     </ul>
   
                                     <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;" lng-tag="themes">Thématiques de la formation</span><br>
@@ -307,12 +307,12 @@ https://www.tooplate.com/view/2115-marvel
                             </div>
                           </div>
   
-                          <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseFormation3" aria-expanded="false" aria-controls="collapseFormation3">
+                          <div class="timeline-wrapper" >
                             <div class="timeline-yr">
                                  <span>2008</span>
                             </div>
                             <div class="timeline-info" >
-                                 <h4><span lng-tag="etude3">Licence/Bac</span></h4>
+                                 <h4><span lng-tag="etude3" data-bs-toggle="collapse" href="#collapseFormation3" aria-expanded="false" aria-controls="collapseFormation3">Licence/Bac</span></h4>
                                  <div class="collapse" id="collapseFormation3">
                                   <small lng-tag="etude3-d1">Option : économie et gestion à la Faculté des Sciences Juridiques, Economiques et Sociales FSJES, Université Hassan II, Casablanca.</small>
                                   
@@ -320,12 +320,12 @@ https://www.tooplate.com/view/2115-marvel
                             </div>
                           </div>
 
-                          <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseFormation8" aria-expanded="false" aria-controls="collapseFormation8">
+                          <div class="timeline-wrapper" >
                             <div class="timeline-yr">
                                  <span>2008</span>
                             </div>
                             <div class="timeline-info" >
-                                 <h4><span lng-tag="etude3">Licence/Bac</span></h4>
+                                 <h4><span lng-tag="etude3" data-bs-toggle="collapse" href="#collapseFormation8" aria-expanded="false" aria-controls="collapseFormation8">Licence/Bac</span></h4>
                                  <div class="collapse" id="collapseFormation8">
                                   <small lng-tag="etude3-d1">Option : Informatique appliquée à la Faculté des Sciences Ain Chock, Casablanca.</small>
                                   
@@ -333,46 +333,46 @@ https://www.tooplate.com/view/2115-marvel
                             </div>
                           </div>
   
-                          <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseFormation4" aria-expanded="false" aria-controls="collapseFormation4">
+                          <div class="timeline-wrapper" >
                             <div class="timeline-yr">
                                  <span>2007</span>
                             </div>
                             <div class="timeline-info" >
-                                 <h4><span lng-tag="etude4">DEUG/DEC Technique</span></h4>
+                                 <h4><span lng-tag="etude4" data-bs-toggle="collapse" href="#collapseFormation4" aria-expanded="false" aria-controls="collapseFormation4">DEUG/DEC Technique</span></h4>
                                  <div class="collapse" id="collapseFormation4">
                                   <small lng-tag="etude4-d1">Option : Sciences économiques à la Faculté des Sciences Juridiques, Economiques et Sociales FSJES, Université Hassan II, Casablanca.</small>
                                  </div>
                             </div>
                           </div>
   
-                          <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseFormation5" aria-expanded="false" aria-controls="collapseFormation5">
+                          <div class="timeline-wrapper" >
                             <div class="timeline-yr">
                                  <span>2006</span>
                             </div>
                             <div class="timeline-info" >
-                                 <h4><span lng-tag="etude5">Baccalauréat/DES</span></h4>
+                                 <h4><span lng-tag="etude5" data-bs-toggle="collapse" href="#collapseFormation5" aria-expanded="false" aria-controls="collapseFormation5">Baccalauréat/DES</span></h4>
                                  <div class="collapse" id="collapseFormation5">
                                   <small lng-tag="etude5-d1">Série : sciences économiques, Casablanca.</small>                                  
                                  </div>
                             </div>
                           </div>
-                          <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseFormation6" aria-expanded="false" aria-controls="collapseFormation6">
+                          <div class="timeline-wrapper" >
                             <div class="timeline-yr">
                                  <span>2005</span>
                             </div>
                             <div class="timeline-info" >
-                                 <h4><span lng-tag="etude5">Baccalauréat/DES</span></h4>
+                                 <h4><span lng-tag="etude5" data-bs-toggle="collapse" href="#collapseFormation6" aria-expanded="false" aria-controls="collapseFormation6">Baccalauréat/DES</span></h4>
                                  <div class="collapse" id="collapseFormation6">
                                   <small lng-tag="etude5-d2">Série : sciences expérimentales, Casablanca.</small>                                  
                                  </div>
                             </div>
                           </div>
-                          <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseFormation7" aria-expanded="false" aria-controls="collapseFormation7">
+                          <div class="timeline-wrapper" >
                             <div class="timeline-yr">
                                  <span>2004</span>
                             </div>
                             <div class="timeline-info" >
-                                 <h4><span lng-tag="etude5">Baccalauréat/DES</span></h4>
+                                 <h4><span lng-tag="etude5" data-bs-toggle="collapse" href="#collapseFormation7" aria-expanded="false" aria-controls="collapseFormation7">Baccalauréat/DES</span></h4>
                                  <div class="collapse" id="collapseFormation7">
                                   <small lng-tag="etude5-d3">Série : sciences mathématiques, Casablanca. </small>                                  
                                  </div>
@@ -381,21 +381,21 @@ https://www.tooplate.com/view/2115-marvel
                         </div>
                       
 
-                    </div>
+                    </div>  
                 </div>
 
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
                   <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#exp-pro-data" aria-expanded="false" aria-controls="exp-pro-data" lng-tag="exppro">Expériences Professionnelles</h4>
-                    <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="exp-pro-data">
+                    <div class="collapse m-1 px-lg-5 px-md-5 px-2" id="exp-pro-data">
 
                     
                     <div class="timeline">                                      
-                        <div class="timeline-wrapper" data-bs-toggle="collapse" class="expPro" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="timeline-wrapper">
                              <div class="timeline-yr">
                                   <span class="depuis">2021</span>
                              </div>
                              <div class="timeline-info" >
-                                  <h4 lng-tag="exp1">Professeur universitaire habilité à diriger les recherches HDR.</br>Consultant et intervenant en formation auprès de divers organismes</h4>
+                                  <h4 lng-tag="exp1" data-bs-toggle="collapse" class="expPro" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Professeur universitaire habilité à diriger les recherches HDR.</br>Consultant et intervenant en formation auprès de divers organismes</h4>
                                   <div class="collapse" id="collapseExample">
                                     
                                       <span class="badge bg-secondary" style="font-size: 12px;  margin: 7px;">Affiliations</span>
@@ -428,12 +428,12 @@ https://www.tooplate.com/view/2115-marvel
                         </div>
 
                         
-                        <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
+                        <div class="timeline-wrapper" >
                           <div class="timeline-yr">
                                <span>2018</span>
                           </div>
                           <div class="timeline-info" >
-                               <h4><span lng-tag="exp2">Stage de formation</span></h4>
+                               <h4><span lng-tag="exp2" data-bs-toggle="collapse" href="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">Stage de formation</span></h4>
                                <div class="collapse" id="collapseExample5">
                                 <small lng-tag="exp2-d1">Au Forum de la Modernité et de la Démocratie FMD, Rabat, Maroc.</small><br>
                                                                    
@@ -445,13 +445,13 @@ https://www.tooplate.com/view/2115-marvel
                           </div>
                      </div>
 
-                        <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                        <div class="timeline-wrapper" >
                           <div class="timeline-yr">
                                <span class="depuis">2016</span>
 
                           </div>
                           <div class="timeline-info" >
-                               <h4><span lng-tag="exp3">Professeur universitaire</span></h4>
+                               <h4><span lng-tag="exp3" data-bs-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">Professeur universitaire</span></h4>
                                <div class="collapse" id="collapseExample1">
                                 <small lng-tag="exp3-d1">A l’université Hassan I, Settat, Grand Casablanca.</small><br>
                                                                    
@@ -470,12 +470,12 @@ https://www.tooplate.com/view/2115-marvel
                           </div>
                      </div>
 
-                     <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+                     <div class="timeline-wrapper" >
                       <div class="timeline-yr">
                            <span>2014</span>
                       </div>
                       <div class="timeline-info" >
-                           <h4><span lng-tag="exp4">Conférencier/Intervenant</span></h4>
+                           <h4><span lng-tag="exp4" data-bs-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">Conférencier/Intervenant</span></h4>
                            <div class="collapse" id="collapseExample4">
                             <small lng-tag="exp4-d1">A la Faculté des Sciences Ain Chock, Casablanca.</small><br>                               
                                <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;" lng-tag="champintervention">Champs d’intervention</span>
@@ -486,14 +486,14 @@ https://www.tooplate.com/view/2115-marvel
                       </div>
                  </div>
 
-                 <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">
+                 <div class="timeline-wrapper" >
                   <div class="timeline-yr">
                        <span>2014</span>
                   </div>
                   <div class="timeline-info" >
-                       <h4><span lng-tag="exp5">Administrateur</span></h4>
+                       <h4><span lng-tag="exp5" data-bs-toggle="collapse" href="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">Chef des services économiques et financiers</span></h4>
                        <div class="collapse" id="collapseExample6">
-                        <small lng-tag="exp5-d1">Chef des services économiques et financiers au Ministère de l’Education Nationale</small><br>                               
+                        <small lng-tag="exp5-d1">Au Ministère de l’Education Nationale.</small><br>                               
                            <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Missions</span>
                            <ul>
                             <li lng-tag="exp5-d2">- Administration du portefeuille des programmes du ministère dans les établissements scolaires d’affectation et suivi de la gestion financière, matérielle et comptable.</li>                                 
@@ -504,12 +504,12 @@ https://www.tooplate.com/view/2115-marvel
                   </div>
              </div>
 
-             <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">
+             <div class="timeline-wrapper" >
               <div class="timeline-yr">
                    <span>2011</span>
               </div>
               <div class="timeline-info" >
-                   <h4><span lng-tag="exp4">Conférencier/Intervenant</span></h4>
+                   <h4><span lng-tag="exp4" data-bs-toggle="collapse" href="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">Conférencier/Intervenant</span></h4>
                    <div class="collapse" id="collapseExample7">
                     <small lng-tag="exp4-d3">A la Faculté des Sciences Ben M’sik, Casablanca.</small><br>                               
                        <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;" lng-tag="champintervention">Champs d’intervention</span>
@@ -520,12 +520,12 @@ https://www.tooplate.com/view/2115-marvel
               </div>
          </div>
 
-                     <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                     <div class="timeline-wrapper" >
                       <div class="timeline-yr">
                            <span>2008</span>
                       </div>
                       <div class="timeline-info" >
-                           <h4><span lng-tag="exp6">Formateur</span></h4>
+                           <h4><span lng-tag="exp6" data-bs-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">Formateur</span></h4>
                            <div class="collapse" id="collapseExample2">
                             <small lng-tag="exp6-d1">A l’Office de la Formation Professionnelle et de la Promotion du Travail OFPPT</small><br>
                                                                
@@ -544,23 +544,23 @@ https://www.tooplate.com/view/2115-marvel
                       </div>
                  </div>
                         
-                 <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                 <div class="timeline-wrapper" >
                         <div class="timeline-yr">
                             <span>2007</span>
                         </div>
                         <div class="timeline-info" >
-                            <h4><span lng-tag="exp7">Agent de service technique</span></h4>
+                            <h4><span lng-tag="exp7" data-bs-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">Agent de service technique</span></h4>
                             <div class="collapse" id="collapseExample3">
                               <small lng-tag="exp7-d1">Chez Atento, société multinationale spécialisée en télécommunication, service de la relation client, Casablanca.</small>
                             </div>
                         </div>
                   </div>
-                  <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseExample8" aria-expanded="false" aria-controls="collapseExample8">
+                  <div class="timeline-wrapper" >
                     <div class="timeline-yr">
                         <span>2006</span>
                     </div>
                     <div class="timeline-info" >
-                        <h4><span lng-tag="exp8">Stagiaire en informatique appliquée</span></h4>
+                        <h4><span lng-tag="exp8" data-bs-toggle="collapse" href="#collapseExample8" aria-expanded="false" aria-controls="collapseExample8">Stagiaire en informatique appliquée</span></h4>
                         <div class="collapse" id="collapseExample8">
                           <small lng-tag="exp8-d1">Chez la société SINSAM spécialisée dans les nouvelles technologies, Casablanca.</small>
                         </div>
@@ -573,14 +573,14 @@ https://www.tooplate.com/view/2115-marvel
 
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
                   <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#fc-data" aria-expanded="false" aria-controls="fc-data" lng-tag="fc">Formation continue</h4>
-                    <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="fc-data">
+                    <div class="collapse m-1 px-lg-5 px-md-5 px-2" id="fc-data">
                       <div class="timeline">
-                        <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapsefc1" aria-expanded="false" aria-controls="collapsefc1">
+                        <div class="timeline-wrapper" >
                           <div class="timeline-yr">
                                <span>2019</span>
                           </div>
                           <div class="timeline-info" >
-                               <h4><span lng-tag="fc1">Formation sur l’ingénierie de formation</span></h4>
+                               <h4><span lng-tag="fc1" data-bs-toggle="collapse" href="#collapsefc1" aria-expanded="false" aria-controls="collapsefc1">Formation sur l’ingénierie de formation</span></h4>
                                <div class="collapse" id="collapsefc1">
                                 <small lng-tag="fc1-d1">A l’Office de la Formation Professionnelle et de la Promotion du Travail OFPPT.</small><br>
                                                                    
@@ -624,13 +624,13 @@ https://www.tooplate.com/view/2115-marvel
                         </div>
                  </div>
                  
-                                    <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapsefc3" aria-expanded="false" aria-controls="collapsefc3">
+                                    <div class="timeline-wrapper" >
                                       <div class="timeline-yr">
                                           <span>2014</br>/2011</span>
                                           
                                       </div>
                                       <div class="timeline-info" >
-                                          <h4><span lng-tag="fc4">Sessions de Formation sur la gestion financière publique</span></h4>
+                                          <h4><span lng-tag="fc4" data-bs-toggle="collapse" href="#collapsefc3" aria-expanded="false" aria-controls="collapsefc3">Sessions de Formation sur la gestion financière publique</span></h4>
                                           <div class="collapse" id="collapsefc3">
                                             <small lng-tag="fc4-d1">Sessions internes de perfectionnement des administrateurs du ministère de l’éducation nationale.</small>
                                             <br>
@@ -646,12 +646,12 @@ https://www.tooplate.com/view/2115-marvel
                                       </div>
                                 </div>
 
-                                <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapsefc4" aria-expanded="false" aria-controls="collapsefc4">
+                                <div class="timeline-wrapper" >
                                   <div class="timeline-yr">
                                       <span>2009</span>
                                   </div>
                                   <div class="timeline-info" >
-                                      <h4><span lng-tag="fc5">Séminaires</span></h4>
+                                      <h4><span lng-tag="fc5" data-bs-toggle="collapse" href="#collapsefc4" aria-expanded="false" aria-controls="collapsefc4">Séminaires de formation</span></h4>
                                       <div class="collapse" id="collapsefc4">
                                         <small lng-tag="fc5-d1">A la Faculté de droit FSJES de Mohammedia.</small>
                                         <br>
@@ -664,12 +664,12 @@ https://www.tooplate.com/view/2115-marvel
                                   </div>
                             </div>
 
-                            <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapsefc5" aria-expanded="false" aria-controls="collapsefc5">
+                            <div class="timeline-wrapper" >
                               <div class="timeline-yr">
                                   <span>2008</span>
                               </div>
                               <div class="timeline-info" >
-                                  <h4><span lng-tag="fc6">Formation pédagogique d’accompagnement au métier de formateur.</span></h4>
+                                  <h4><span lng-tag="fc6" data-bs-toggle="collapse" href="#collapsefc5" aria-expanded="false" aria-controls="collapsefc5">Formation pédagogique d’accompagnement au métier de formateur.</span></h4>
                                   <div class="collapse" id="collapsefc5">
                                     <small lng-tag="fc6-d1">Formation interne à l’Office de la Formation Professionnelle et de la Promotion du Travail OFPPT.</small><br>   
                                                                       
@@ -684,12 +684,12 @@ https://www.tooplate.com/view/2115-marvel
                                   </div>
                               </div>
                         </div>
-                        <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapsefc6" aria-expanded="false" aria-controls="collapsefc6">
+                        <div class="timeline-wrapper" >
                           <div class="timeline-yr">
                               <span>2008</span>
                           </div>
                           <div class="timeline-info" >
-                              <h4><span lng-tag="fc7">Formation interne en communication professionnelle.</span></h4>
+                              <h4><span lng-tag="fc7" data-bs-toggle="collapse" href="#collapsefc6" aria-expanded="false" aria-controls="collapsefc6">Formation interne en communication professionnelle.</span></h4>
                               <div class="collapse" id="collapsefc6">
                                 <small lng-tag="fc7-d1">Chez la société ATENTO.</small><br>   
                                                                   
@@ -702,12 +702,12 @@ https://www.tooplate.com/view/2115-marvel
                           </div>
                     </div>
                         
-                    <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapsefc7" aria-expanded="false" aria-controls="collapsefc7">
+                    <div class="timeline-wrapper" >
                       <div class="timeline-yr">
                           <span>2005</span>
                       </div>
                       <div class="timeline-info" >
-                          <h4><span lng-tag="fc8">Programme de formation en «leadership training».</span></h4>
+                          <h4><span lng-tag="fc8" data-bs-toggle="collapse" href="#collapsefc7" aria-expanded="false" aria-controls="collapsefc7">Programme de formation en «leadership training».</span></h4>
                           <div class="collapse" id="collapsefc7">
                             <small lng-tag="fc8-d1">Dans le cadre du « CoRT thinking programme », à l’Ecole Mohammedia des Ingénieurs, Rabat.</small><br>   
                                                               
@@ -769,7 +769,7 @@ https://www.tooplate.com/view/2115-marvel
                   <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#recherche-data" aria-expanded="false" aria-controls="recherche-data" lng-tag="recherche">Cercles de recherche</h4>
                     <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="recherche-data">
                       <div class="p-1 recherche" style="background-color: rgba(135, 208, 230, 0.186);">
-                        <h6 class="m-3" lng-tag="champsappro"> champs d'appropriation :</h6>
+                        <h6 class="ms-3" lng-tag="champsappro"> champs d'appropriation :</h6>
                       <p class="m-3" lng-tag="recherche-d1">Education, religion, sexualité, société, médias et règlementation, leadership et mouvement associatif, sciences d’information et de communication, développement local.</p>
                       </div>            
                       <hr>
@@ -959,8 +959,8 @@ https://www.tooplate.com/view/2115-marvel
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
                   <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#missions-data" aria-expanded="false" aria-controls="missions-data" lng-tag="missions">Missions pédagogiques et administratives</h4>
                     <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="missions-data">
-                      <h6 class="m-3" style="background-color:rgba(135, 208, 230, 0.186);padding:5px;"> <span lng-tag="depuis">Depuis</span> 2022 :</h6>
-                      <ul class="custom-ul m-3">
+                      <h6 class="m-3"> <span lng-tag="depuis">Depuis</span> 2022 :</h6>
+                      <ul class="missionList m-3">
                         <li lng-tag="mission1">Membre de l’équipe pédagogique de la filière/maîtrise (SPDS) Sciences politiques et dynamiques sociales, Département sciences sociales, Faculté de droit FSJES de Mohammedia.</li>
                         <li lng-tag="mission2">Membre de l’équipe pédagogique des filières d’ingénierie :</br>
                           (ICP) Ingénierie de Conception et Productique, Faculté FST de Settat.</br>
@@ -969,76 +969,76 @@ https://www.tooplate.com/view/2115-marvel
                         <li lng-tag="mission3">Coordonnateur de module (management de la qualité et gestion de projet) au sein de la filière/maitrise (M) Mécatronique, Faculté FST de Settat.</li>
                       </ul>
                       <!-- <hr style="border: 1px dashed rgb(0, 0, 0);" /> -->
-                      <h6 class="m-3" style="background-color:rgba(135, 208, 230, 0.186);padding:5px;"> <span lng-tag="depuis">Depuis</span> 2021 :</h6>
-                      <ul class="custom-ul m-3">
+                      <h6 class="m-3"> <span lng-tag="depuis">Depuis</span> 2021 :</h6>
+                      <ul class="missionList m-3">
                         <li lng-tag="mission4">Coordonnateur de module (gestion de projet) au sein de la filière/maitrise (IRISTI) Ingénierie des réseaux informatiques et des systèmes des télécommunications, Faculté FST de Settat.</li>
                         <li lng-tag="mission5">Membre de l’équipe pédagogique de la filière d’ingénierie (IBIM) Ingénierie biomédicale : instrumentation et maintenance, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> <span lng-tag="depuis">Depuis</span> 2020 :</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission6">Membre de l’équipe pédagogique de la filière d’ingénierie (GI) Génie informatique, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2021-2022 :</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission7">Membre de l’équipe pédagogique de la filière/maitrise (VMIB) Valorisation et management de l’innovation en biosciences, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2020:</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission8">Membre de l’équipe pédagogique de la filière/maitrise (IMSC) Ingénierie et modélisation des systèmes complexes, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2018-2019 :</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission9">Concepteur et coordonnateur de la filière/maitrise (MAMIAAP) Management appliqué aux métiers de l’industrie automobile, aéroportuaire et portuaire, Centre de formation continue, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2017-2022 :</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission10">Membre de l’équipe pédagogique de la filière/maitrise (MCDA) Management, commerce et distribution en agroalimentaire, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2017-2018-2020 :</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission11">Membre de l’équipe pédagogique de la filière/maitrise (GBIM) Génie biomédical, instrumentation et maintenance, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2017-2018-2019 :</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission12">Membre de l’équipe pédagogique de la filière/Bac (GEGM) Génie électrique, génie mécanique, et de la filière/maitrise (PVRM) Prospection et valorisation des ressources minérales, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2017-2018 :</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission13">Membre du comité chargé de la préparation du Forum FST/Entreprises, Faculté FST de Settat.</li>
                         <li lng-tag="mission14">Membre de l’équipe pédagogique de la filière/Bac (LST TDM BD) Licence en sciences et techniques, traitement des données massives big data, et de la filières/maitrise (SAE) Sciences appliquées à l’environnement, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2016-2017-2018-2022 :</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission15">Membre de l’équipe pédagogique de la filière/maitrise (ATSII) Automatique, traitement du signal et informatique industrielle, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2016-2017 :</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission16">Chargé de l’organisation et la mutualisation des modules de gestion auprès du vice doyen des affaires pédagogiques et estudiantines.</li>
                         <li lng-tag="mission17">Chargé du plan de communication de la FSTS, projet présenté devant le doyen pour l’année universitaire 2016/2017.</li>
                         <li lng-tag="mission18">Membre de l’équipe pédagogique des filières/maitrises : (RMC) Ingénierie et management industriel, (AGQ) Ingénierie et management industriel, (IMI) Ingénierie et management industriel, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> <span lng-tag="depuis">Depuis</span> 2016 :</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission19">Membre de la cellule pédagogique des sciences de gestion et de la communication, Faculté FST de Settat.</li>
                       </ul>
                       <h6 class="m-3"> 2016 :</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission20">Membre de la commission d’organisation des élections des structures de l’établissement FSTS, en Décembre 2016.</li>
                       </ul>
                       <h6 class="m-3"> 2011-2015 :</h6>
-                      <ul class="custom-ul m-3">
-                        <li lng-tag="mission21">Administration des affaires économiques et financières, les Services Economiques et Matériels.</br>
+                      <ul class="missionList m-3">
+                        <li lng-tag="mission21">Administration des affaires économiques et financières auprès des établissements scolaires des Académies de l'Education Nationale.</br>
                           Académie Agadir.</br> 
                           Académie Grand Casablanca.
                         </li>
                       </ul>
                       
                       <h6 class="m-3"> 2009-2010 :</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission22">Parrain de la promotion 2008/2009 des formations techniques en nouvelles technologies d’information et offshoring à l’Institut Spécialisé dans les Nouvelles Technologies IS-NTIC de Casablanca.</li>
                       </ul>
                       <h6 class="m-3"> 2008-2009 :</h6>
-                      <ul class="custom-ul m-3">
+                      <ul class="missionList m-3">
                         <li lng-tag="mission23">Membre au comité de gestion et de coordination pédagogique de l’Institut Spécialisé dans les Nouvelles Technologies IS-NTIC de Casablanca.</li>
                       </ul>
 
@@ -1048,18 +1048,18 @@ https://www.tooplate.com/view/2115-marvel
                 <br>
                 <br>
 
-                <h3 lng-tag="autre">Autre participations</h3>
+                <h3 lng-tag="autre">Autre activités</h3>
 
                 <div class="col-lg-12 col-12 p-0 sections mb-1">
                   <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#projet-data" aria-expanded="false" aria-controls="projet-data" lng-tag="projets">Projets</h4>
                     <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="projet-data">
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet1" aria-expanded="false" aria-controls="collapseprojet1">
+                      <div class="timeline-wrapper" >
                         <div class="timeline-yr">
                             <span class="depuis">2008</span>
                             
                         </div>
                         <div class="timeline-info" >
-                            <h4><span lng-tag="project1">Initiateur du projet « IT Meeting »</span></h4>
+                            <h4><span lng-tag="project1" data-bs-toggle="collapse" href="#collapseprojet1" aria-expanded="false" aria-controls="collapseprojet1">Initiateur du projet « IT Meeting »</span></h4>
                             <div class="collapse" id="collapseprojet1">
                               <small lng-tag="project1-d1">Au service des formations du cycle ingénierie.</small><br>                                                                   
                                 <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Missions</span>
@@ -1071,70 +1071,15 @@ https://www.tooplate.com/view/2115-marvel
                             </div>
                         </div>
                       </div>
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet2" aria-expanded="false" aria-controls="collapseprojet2">
-                        <div class="timeline-yr">
-                            <span>2019</span>
-                        </div>
-                        <div class="timeline-info" >
-                            <h4><span lng-tag="project2" >Modérateur du Bio-Médical-Event</span></h4>
-                            <div class="collapse" id="collapseprojet2">
-                              <small lng-tag="project2-d1">(2019/12/21) Evènement organisé par la filière/maitrise GBIM avec la participation d’entreprises opérant dans le secteur professionnel biomédical, sous le thème : Métier de l’ingénieur biomédical au Maroc, Faculté FST de Settat.</small>                                                                   
-                                                               
-                            </div>
-                        </div>
-                      </div>
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet3" aria-expanded="false" aria-controls="collapseprojet3">
-                        <div class="timeline-yr">
-                            <span>2019</span>
-                        </div>
-                        <div class="timeline-info" >
-                            <h4><span lng-tag="project3">Membre aux comités d’évaluation des communications orales et modérateur.</span></h4>
-                            <div class="collapse" id="collapseprojet3">
-                              <small lng-tag="project3-d1">(2019/09/07) Au Colloque International de gestion CIREG (19ème  édition), organisé par l’ENGC de Settat, sous le thème : le management entre agilité et innovation, Marrakech.</small><br>                                                                                                
-                            </div>
-                        </div>
-                      </div>
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet4" aria-expanded="false" aria-controls="collapseprojet4">
+                      
+                      
+                      
+                      <div class="timeline-wrapper" >
                         <div class="timeline-yr">
                             <span>2018</span>
                         </div>
                         <div class="timeline-info" >
-                            <h4><span lng-tag="project4">Rapporteur de séminaire</span></h4>
-                            <div class="collapse" id="collapseprojet4">
-                              <small lng-tag="project4-d1">(2018/10/25) Séminaire « l’ingénierie de formation et le développement des compétences », organisé par la FST de Settat, sous le thème : ingénierie de formation, vecteur d’employabilité et de mobilité.</small><br>                                                                   
-                                                            
-                            </div>
-                        </div>
-                      </div>
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet5" aria-expanded="false" aria-controls="collapseprojet5">
-                        <div class="timeline-yr">
-                            <span>2018</span>
-                        </div>
-                        <div class="timeline-info" >
-                            <h4><span lng-tag="project5">Animateur de conférence</span></h4>
-                            <div class="collapse" id="collapseprojet5">
-                              <small lng-tag="project5-d1">Conférence d’ouverture de la semaine d’intégration des étudiants nouvellement inscrits, sous le thème : comment bien mener et réussir sa mission d’étude au supérieur, tenue en septembre 2018, Faculté FST de Settat.</small><br>                                                                   
-                                                               
-                            </div>
-                        </div>
-                      </div>
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet6" aria-expanded="false" aria-controls="collapseprojet6">
-                        <div class="timeline-yr">
-                            <span>2018</span>
-                        </div>
-                        <div class="timeline-info" >
-                            <h4><span lng-tag="project6">Membre au jury de compétition</span></h4>
-                            <div class="collapse" id="collapseprojet6">
-                              <small lng-tag="project6-d1">Compétition sur le thème de  l’innovation, organisée par le club UMUS en Avril-Mai 2018, Faculté FST de Settat.</small><br>                                                                                           
-                            </div>
-                        </div>
-                      </div>
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet7" aria-expanded="false" aria-controls="collapseprojet7">
-                        <div class="timeline-yr">
-                            <span>2018</span>
-                        </div>
-                        <div class="timeline-info" >
-                            <h4><span lng-tag="project7">Projet de Filière de Formation Continue.</span></h4>
+                            <h4><span lng-tag="project7" data-bs-toggle="collapse" href="#collapseprojet7" aria-expanded="false" aria-controls="collapseprojet7">Projet de Filière de Formation Continue.</span></h4>
                             <div class="collapse" id="collapseprojet7">
                                 <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Description</span>
                                 <ul>
@@ -1154,25 +1099,14 @@ https://www.tooplate.com/view/2115-marvel
 
                         </div>
                       </div>
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet8" aria-expanded="false" aria-controls="collapseprojet8">
-                        <div class="timeline-yr">
-                            <span>2017</span>
-                        </div>
-                        <div class="timeline-info" >
-                            <h4><span lng-tag="project8">Animateur d’atelier de formation</span></h4>
-                            <div class="collapse" id="collapseprojet8">
-                              <small lng-tag="project8-d1">Dans le cadre des travaux du Forum FST-Entreprises, sous le thème : l’insertion professionnelle et la gestion des compétences des lauréats de la FST dans le marché d’emploi.</small>
-                       
-                            </div>
-                        </div>
-                      </div>
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet9" aria-expanded="false" aria-controls="collapseprojet9">
+                      
+                      <div class="timeline-wrapper" >
                         <div class="timeline-yr">
                             <span>2017</br>/2016</span>
                             
                         </div>
                         <div class="timeline-info" >
-                            <h4><span lng-tag="project9">Projet d’encadrement des clubs estudiantins de la FST de Settat</span></h4>
+                            <h4><span lng-tag="project9" data-bs-toggle="collapse" href="#collapseprojet9" aria-expanded="false" aria-controls="collapseprojet9">Projet d’encadrement des clubs estudiantins de la FST de Settat</span></h4>
                             <div class="collapse" id="collapseprojet9">
                                 <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Description</span><br>
                                 <ul>
@@ -1186,12 +1120,12 @@ https://www.tooplate.com/view/2115-marvel
                             </div>
                         </div>
                       </div>
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet10" aria-expanded="false" aria-controls="collapseprojet10">
+                      <div class="timeline-wrapper" >
                         <div class="timeline-yr">
                             <span>2016</span>
                         </div>
                         <div class="timeline-info" >
-                            <h4><span lng-tag="project10">Projet de Plan de Communication de la Faculté FST</span></h4>
+                            <h4><span lng-tag="project10" data-bs-toggle="collapse" href="#collapseprojet10" aria-expanded="false" aria-controls="collapseprojet10">Projet de Plan de Communication de la Faculté FST</span></h4>
                             <div class="collapse" id="collapseprojet10">
                                 <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Description</span><br>
                                 <ul>
@@ -1204,13 +1138,13 @@ https://www.tooplate.com/view/2115-marvel
                             </div>
                         </div>
                       </div>
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet11" aria-expanded="false" aria-controls="collapseprojet11">
+                      <div class="timeline-wrapper" >
                         <div class="timeline-yr">
                             <span>2017</br>/2013</span>
                             
                         </div>
                         <div class="timeline-info" >
-                            <h4><span lng-tag="project11">Projet de Stratégie d’Amélioration du Secteur de la Formation Professionnelle</span></h4>
+                            <h4><span lng-tag="project11" data-bs-toggle="collapse" href="#collapseprojet11" aria-expanded="false" aria-controls="collapseprojet11">Projet de Stratégie d’Amélioration du Secteur de la Formation Professionnelle</span></h4>
                             <div class="collapse" id="collapseprojet11">
                                 <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Description</span><br>
                                 <ul>
@@ -1223,28 +1157,14 @@ https://www.tooplate.com/view/2115-marvel
                             </div>
                         </div>
                       </div>
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet12" aria-expanded="false" aria-controls="collapseprojet12">
-                        <div class="timeline-yr">
-                            <span>2012</span>
-                        </div>
-                        <div class="timeline-info" >
-                            <h4><span lng-tag="project12">Membre actif à l’Observatoire de Recherche en Didactique et Pédagogie Universitaire ORDIPU</span></h4>
-                            <div class="collapse" id="collapseprojet12">
-                                <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Description</span><br>
-                                <ul>
-                                  <li lng-tag="project12-d1">Travaux de recherche sur l’évaluation de formation et le management des compétences en milieu professionnel.</li>
-                                </ul>      
-                                
-                            </div>
-                        </div>
-                      </div>
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet13" aria-expanded="false" aria-controls="collapseprojet13">
+                      
+                      <div class="timeline-wrapper" >
                         <div class="timeline-yr">
                             <span>2012</br>/2010</span>
                             
                         </div>
                         <div class="timeline-info" >
-                            <h4><span lng-tag="project13">Projet d’Evaluation de l’Employabilité des Compétences dans le Secteur de l’Offshoring</span></h4>
+                            <h4><span lng-tag="project13" data-bs-toggle="collapse" href="#collapseprojet13" aria-expanded="false" aria-controls="collapseprojet13">Projet d’Evaluation de l’Employabilité des Compétences dans le Secteur de l’Offshoring</span></h4>
                             <div class="collapse" id="collapseprojet13">
                                 <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Description</span><br>
                                 <ul>
@@ -1257,12 +1177,12 @@ https://www.tooplate.com/view/2115-marvel
                             </div>
                         </div>
                       </div>
-                      <div class="timeline-wrapper" data-bs-toggle="collapse" href="#collapseprojet14" aria-expanded="false" aria-controls="collapseprojet14">
+                      <div class="timeline-wrapper" >
                         <div class="timeline-yr">
                             <span>2010</span>
                         </div>
                         <div class="timeline-info" >
-                            <h4><span lng-tag="project14">Projet Interactif de Sensibilisation à la Sécurité Routière en 3D</span></h4>
+                            <h4><span lng-tag="project14" data-bs-toggle="collapse" href="#collapseprojet14" aria-expanded="false" aria-controls="collapseprojet14">Projet Interactif de Sensibilisation à la Sécurité Routière en 3D</span></h4>
                             <div class="collapse" id="collapseprojet14">
                                 <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Description</span><br>
                                 <ul>
@@ -1286,6 +1206,103 @@ https://www.tooplate.com/view/2115-marvel
 
 
                     </div>
+                </div>
+
+                <div class="col-lg-12 col-12 p-0 sections mb-1" id="participation">
+                  <h4 class="headlines mb-2" data-bs-toggle="collapse" href="#participation-data" aria-expanded="false" aria-controls="participation-data">Participations</h4>
+                  <div class="collapse m-1 p-lg-5 p-md-5 p-2" id="participation-data">
+                    
+                    <div class="timeline-wrapper" >
+                      <div class="timeline-yr">
+                          <span>2019</span>
+                      </div>
+                      <div class="timeline-info" >
+                          <h4><span lng-tag="project2" data-bs-toggle="collapse" href="#collapseprojet2" aria-expanded="false" aria-controls="collapseprojet2">Modérateur du Bio-Médical-Event</span></h4>
+                          <div class="collapse" id="collapseprojet2">
+                            <small lng-tag="project2-d1">(2019/12/21) Evènement organisé par la filière/maitrise GBIM avec la participation d’entreprises opérant dans le secteur professionnel biomédical, sous le thème : Métier de l’ingénieur biomédical au Maroc, Faculté FST de Settat.</small>                                                                   
+                                                             
+                          </div>
+                      </div>
+                    </div>
+                    <div class="timeline-wrapper" >
+                      <div class="timeline-yr">
+                          <span>2019</span>
+                      </div>
+                      <div class="timeline-info" >
+                          <h4><span lng-tag="project3" data-bs-toggle="collapse" href="#collapseprojet3" aria-expanded="false" aria-controls="collapseprojet3">Membre aux comités d’évaluation des communications orales et modérateur.</span></h4>
+                          <div class="collapse" id="collapseprojet3">
+                            <small lng-tag="project3-d1">(2019/09/07) Au Colloque International de gestion CIREG (19ème  édition), organisé par l’ENGC de Settat, sous le thème : le management entre agilité et innovation, Marrakech.</small><br>                                                                                                
+                          </div>
+                      </div>
+                    </div>
+                    <div class="timeline-wrapper" >
+                      <div class="timeline-yr">
+                          <span>2018</span>
+                      </div>
+                      <div class="timeline-info" >
+                          <h4><span lng-tag="project4" data-bs-toggle="collapse" href="#collapseprojet4" aria-expanded="false" aria-controls="collapseprojet4">Rapporteur de séminaire</span></h4>
+                          <div class="collapse" id="collapseprojet4">
+                            <small lng-tag="project4-d1">(2018/10/25) Séminaire « l’ingénierie de formation et le développement des compétences », organisé par la FST de Settat, sous le thème : ingénierie de formation, vecteur d’employabilité et de mobilité.</small><br>                                                                   
+                                                          
+                          </div>
+                      </div>
+                    </div>
+                    <div class="timeline-wrapper" >
+                      <div class="timeline-yr">
+                          <span>2018</span>
+                      </div>
+                      <div class="timeline-info" >
+                          <h4><span lng-tag="project5" data-bs-toggle="collapse" href="#collapseprojet5" aria-expanded="false" aria-controls="collapseprojet5">Animateur de conférence</span></h4>
+                          <div class="collapse" id="collapseprojet5">
+                            <small lng-tag="project5-d1">Conférence d’ouverture de la semaine d’intégration des étudiants nouvellement inscrits, sous le thème : comment bien mener et réussir sa mission d’étude au supérieur, tenue en septembre 2018, Faculté FST de Settat.</small><br>                                                                   
+                                                             
+                          </div>
+                      </div>
+                    </div>
+                    <div class="timeline-wrapper" >
+                      <div class="timeline-yr">
+                          <span>2018</span>
+                      </div>
+                      <div class="timeline-info" >
+                          <h4><span lng-tag="project6" data-bs-toggle="collapse" href="#collapseprojet6" aria-expanded="false" aria-controls="collapseprojet6">Membre au jury de compétition</span></h4>
+                          <div class="collapse" id="collapseprojet6">
+                            <small lng-tag="project6-d1">Compétition sur le thème de  l’innovation, organisée par le club UMUS en Avril-Mai 2018, Faculté FST de Settat.</small><br>                                                                                           
+                          </div>
+                      </div>
+                    </div>
+    
+                    <div class="timeline-wrapper" >
+                      <div class="timeline-yr">
+                          <span>2017</span>
+                      </div>
+                      <div class="timeline-info" >
+                          <h4><span lng-tag="project8" data-bs-toggle="collapse" href="#collapseprojet8" aria-expanded="false" aria-controls="collapseprojet8">Animateur d’atelier de formation</span></h4>
+                          <div class="collapse" id="collapseprojet8">
+                            <small lng-tag="project8-d1">Dans le cadre des travaux du Forum FST-Entreprises, sous le thème : l’insertion professionnelle et la gestion des compétences des lauréats de la FST dans le marché d’emploi.</small>
+                     
+                          </div>
+                      </div>
+                    </div>
+    
+                    <div class="timeline-wrapper" >
+                      <div class="timeline-yr">
+                          <span>2012</span>
+                      </div>
+                      <div class="timeline-info" >
+                          <h4><span lng-tag="project12" data-bs-toggle="collapse" href="#collapseprojet12" aria-expanded="false" aria-controls="collapseprojet12">Membre actif à l’Observatoire de Recherche en Didactique et Pédagogie Universitaire ORDIPU</span></h4>
+                          <div class="collapse" id="collapseprojet12">
+                              <span class="badge bg-secondary" style="font-size: 12px; margin: 7px;">Description</span><br>
+                              <ul>
+                                <li lng-tag="project12-d1">Travaux de recherche sur l’évaluation de formation et le management des compétences en milieu professionnel.</li>
+                              </ul>      
+                              
+                          </div>
+                      </div>
+                    </div>
+                  
+                </div>
+                
+  
                 </div>
 
             
