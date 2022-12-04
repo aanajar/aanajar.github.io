@@ -182,6 +182,8 @@ $(document).ready(function () {
         // });
 
         $("#pubCarousel").css("--bg-image","url('/images/pub.jpg')")
+        $("#pub-navitem").click()
+
 
         $("#cours-navitem").click(function () { 
           $("#pubCarousel").css("--bg-image","url('/images/cours.jpg')")
